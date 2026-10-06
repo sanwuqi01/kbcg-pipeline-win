@@ -8,14 +8,28 @@
 
 前提：Windows 10/11 · 剪映专业版（启动过至少一次）· `ffmpeg` 在 PATH · Python 3.11+ · 一个 AI agent（WorkBuddy / Claude Code / ZCode / Cursor）
 
+**安装位置先定死（两种方式通用）**：选一个本地物理盘的固定目录，如 `D:\kbcg-pipeline-win`——纯英文、无空格；不要放桌面 / OneDrive / 网盘同步目录 / 移动硬盘 / 网络路径；所在盘剩余空间 ≥ 5GB（模型 1.6GB 和工作区产物都长在仓库目录里，装一次长期用，别换地方）。
+
+### 方式 A · 人工克隆（会一点命令行，自己掌握工作目录）
+
 ```bash
-git clone https://github.com/sanwuqi01/kbcg-pipeline-win.git
-cd kbcg-pipeline-win
+git clone https://github.com/sanwuqi01/kbcg-pipeline-win.git D:\kbcg-pipeline-win
 ```
 
-1. 用 agent 打开本目录，对话里说：**「安装口播出稿」**——自动装环境（含 1.6GB 模型下载，10–30 分钟），看到 `结论: ✅ 就绪` 即装好
-2. 视频丢进 `剪辑工作台\输入\<日期>\`，对话里说：**「用口播出稿，跑一下输入」**
-3. AI 跑完全链，中途 6 个编辑判断点停下来等你确认，最后草稿直接出现在剪映草稿箱——打开剪映核对三项（素材可见 / 无权限提示 / 能出画面）即完成
+克隆完用 agent 把这个目录作为工作区打开，直接跳到下面的「装好之后」。
+
+### 方式 B · agent 一句话（推荐，粘给 agent 即可）
+
+```text
+把 https://github.com/sanwuqi01/kbcg-pipeline-win 克隆到 D:\kbcg-pipeline-win
+（固定安装目录：纯英文无空格，不要放桌面/OneDrive/网盘/移动硬盘，目标盘剩余空间 ≥ 5GB）。
+克隆完成后：把该目录作为你的工作目录打开，先读 AGENTS.md，
+然后执行环境安装（对话指令「安装口播出稿」，等价 部署/bootstrap.py --yes，
+预计 10–30 分钟，主要是下载 1.6GB ASR 模型），
+最后跑 脚本_win/pipeline.py doctor 自检并向我报告结论。
+```
+
+**装好之后（日常只有一句）**：视频丢进 `剪辑工作台\输入\<日期>\`，对话里说 **「用口播出稿，跑一下输入」**。AI 跑完全链，中途 6 个编辑判断点停下来等你确认，最后草稿直接出现在剪映草稿箱——打开剪映核对三项（素材可见 / 无权限提示 / 能出画面）即完成。
 
 ## 它是怎么工作的
 
