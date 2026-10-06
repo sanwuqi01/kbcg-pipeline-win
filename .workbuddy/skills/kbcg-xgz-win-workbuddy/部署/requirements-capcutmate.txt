@@ -1,0 +1,24 @@
+# CapCutMate 运行时依赖锁定（p4j_出剪映草稿.py 专用 venv）
+# 真值来源：capcut-mate@96f36486 pyproject.toml + 本机实测 freeze
+# 用法（bootstrap.py 会自动执行等价命令）：
+#   "<CAPCUT_PY>" -m pip install -r 部署/requirements-capcutmate.txt
+#
+# 说明：本 Skill 只用到 CapCutMate 的 pyJianYingDraft 包（DraftFolder / VideoMaterial /
+#       TextSegment / FontType），不需要起它的 FastAPI 服务。但它的 pyproject 声明了
+#       这些依赖，装齐可避免 import 链上的隐性缺件。
+
+email-validator==2.3.0
+fastapi==0.141.1
+pymediainfo==7.0.1
+requests==2.34.2
+uvicorn==0.52.4
+cos-python-sdk-v5==1.9.44
+oss2==2.19.1
+imageio==2.37.4
+numpy==2.5.3
+pillow==12.3.0
+
+# Windows 平台附加（pyproject 的 [windows] extra）
+pywin32==312
+pyautogui==0.9.54
+uiautomation==2.0.29

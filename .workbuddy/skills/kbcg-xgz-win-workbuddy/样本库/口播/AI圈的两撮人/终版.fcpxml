@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.14">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p60" frameDuration="100/6000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r2" name="C2853.MP4" uid="F4F2786FD5373809F4DF71D181411667" start="0s" duration="11531520/60000s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="F4F2786FD5373809F4DF71D181411667" src="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E9%87%91/7%E6%9C%88/7%20%E6%9C%88%2020%20%E7%9B%B4%E6%92%AD%E5%88%87%E7%89%87/C2853.MP4">
+                <bookmark>Ym9va7AEAAAAAAUQQAAAACoITEwKvaM18eJKBpoAvAenCq+RkaSJ1rGtcNRsHdBsAAAAAAAAAAAAAAAAAAAAAJADAAAgAAAAAQIAAGmWGrRgxsJXM9g7sqN/4bO64ZPx/j7TnoHtWD8zSPZeBAAAAAMDAAAAGAAoBwAAAAEBAABWb2x1bWVzAAcAAAABAQAA5oSP5L+uMQADAAAAAQEAAOmHkQAEAAAAAQEAADfmnIgVAAAAAQEAADcg5pyIIDIwIOebtOaSreWIh+eJhwAAAAkAAAABAQAAQzI4NTMuTVA0AAAAGAAAAAEGAAA4AAAASAAAAFgAAABkAAAAcAAAAJAAAAAIAAAABAMAAKVvAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAam0tAAAAAAAIAAAABAMAAJA4MgAAAAAACAAAAAQDAAC+ljIAAAAAAAgAAAAEAwAAwJYyAAAAAAAYAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAAAgAAAAABAAAQcgHJRgAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAFAAAABAAAAAMDAAAEAAAAJAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvJUU2JTg0JThGJUU0JUJGJUFFMS8IAAAABAMAAAAAAb/RAQAACAAAAAAEAABBxZbgFWjB/yQAAAABAQAAOTc2QTBFNjAtNkVGNS00NTkzLUI2RjItNzZBMjVGOEI5NTlGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzL+aEj+S/rjEIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAABQoRtzAAAACAAAAAAEAABBx9+ALwAAACQAAAABAQAARTU0MEY4QTEtRDk0OS00Mzg2LTk1RDItOUQzRjU0RUQ4RjMwGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADUAgAAAAAAAAUgAABEAgAAAAAAABAgAABUAgAAAAAAABEgAACIAgAAAAAAABIgAABoAgAAAAAAABMgAAB4AgAAAAAAACAgAAC0AgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAASAMAAFQDAABgAwAAVAMAAFQDAABUAwAAVAMAANgAAAD+////AQAAAOACAAARAAAABBAAAKQAAAAAAAAABRAAACQBAAAAAAAAEBAAAFQBAAAAAAAAQBAAAEQBAAAAAAAAVBAAAHwBAAAAAAAAVRAAAIgBAAAAAAAAVhAAAHQBAAAAAAAAACAAAGwDAAAAAAAAAiAAACwCAAAAAAAABSAAAJQBAAAAAAAAECAAAEgAAAAAAAAAESAAAOABAAAAAAAAEiAAAMABAAAAAAAAEyAAANABAAAAAAAAICAAAAwCAAAAAAAAENAAACwAAAAAAAAAhPAAAAQAAAAAAAAA</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>线性PCM</string>
+                        <string>AVC Coding</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-07-24 19:37:52 +0800"/>
+            </metadata>
+        </asset>
+        <format id="r3" name="FFVideoFormat1080p5994" frameDuration="1001/60000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <effect id="r4" name="基本字幕" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti"/>
+    </resources>
+    <library location="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E5%89%AA%E8%BE%91%E7%B4%A0%E6%9D%90%E8%B5%84%E6%BA%90/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E5%BA%93/%E9%87%91%E5%AF%BC.fcpbundle/">
+        <event name="金鳞0720切片" uid="258B2E47-B3DB-4EE8-B7BB-D60727AB3F8E">
+            <project name="AI圈的两撮人_v7_金鳞0720" uid="F79AFC8C-C907-4696-AC5E-5B3DB31047F1" modDate="2026-07-24 19:48:25 +0800">
+                <sequence format="r1" duration="427800/6000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip ref="r2" offset="0s" name="很像每个人你刷视频都能刷到AI" start="12700/6000s" duration="12500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="12700/6000s" name="很像每个人" start="5000/6000s" duration="3000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts1">每个人</text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="157/60s" name="你刷视频都能刷到AI" duration="9500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts2">你刷视频都能刷到</text-style>
+                                </text>
+                                <text-style-def id="ts2">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <chapter-marker start="77/60s" duration="100/6000s" value="钩子:人人都在刷AI"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="12500/6000s" name="的东西" start="27500/6000s" duration="4900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="55/12s" name="的东西" duration="4900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts3">AI的东西</text-style>
+                                </text>
+                                <text-style-def id="ts3">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="17400/6000s" name="但是难受点是什么呢" start="40300/6000s" duration="8400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="403/60s" name="但是难受点是什么呢" duration="8400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts4">但是难受点是什么呢</text-style>
+                                </text>
+                                <text-style-def id="ts4">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="25800/6000s" name="有些人他是很懂技" start="61300/6000s" duration="7800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="613/60s" name="有些人他是很懂" duration="7800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts5">有些人他是很懂</text-style>
+                                </text>
+                                <text-style-def id="ts5">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="33600/6000s" name="术的" start="71600/6000s" duration="4000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="71600/6000s" name="技术的" start="-400/6000s" duration="4000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts6">技术的</text-style>
+                                </text>
+                                <text-style-def id="ts6">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="37600/6000s" name="他可能自己以前都是程序员" start="80300/6000s" duration="9400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="80300/6000s" name="他可能自己以前" start="800/6000s" duration="4200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts7">他可能自己以前</text-style>
+                                </text>
+                                <text-style-def id="ts7">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="169/12s" name="都是程序员" duration="5200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts8">都是程序员</text-style>
+                                </text>
+                                <text-style-def id="ts8">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="47000/6000s" name="无论他直播呀" start="100800/6000s" duration="7700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="100800/6000s" name="无论他直播呀" start="1400/6000s" duration="7700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts9">无论他直播呀</text-style>
+                                </text>
+                                <text-style-def id="ts9">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <chapter-marker start="497/30s" duration="100/6000s" value="两撮人:懂技术的"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="54700/6000s" name="视频里面他讲的都是偏技术那一派的" start="126600/6000s" duration="18700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="126600/6000s" name="视频里面他讲的" start="1100/6000s" duration="6500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts10">视频里面他讲的</text-style>
+                                </text>
+                                <text-style-def id="ts10">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1331/60s" name="都是偏技术那一派的" duration="12200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/3296539777/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/3296539777/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/3296539777/21/75" value="0.99 0.99"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/3296539779/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/3296539779/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/3296539779/21/75" value="0.99 0.99"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts11">都是</text-style>
+                                    <text-style ref="ts12">偏技术</text-style>
+                                    <text-style ref="ts11">那一派的</text-style>
+                                </text>
+                                <text-style-def id="ts11">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts12">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.7882 0.6392 0.3608 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <marker start="251/12s" duration="100/6000s" value="B-roll建议:技术流直播/代码画面" completed="0"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="73400/6000s" name="然后另外一一撮人的话呢" start="160500/6000s" duration="16100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="107/4s" name="然后另外一撮人的话呢" duration="16100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts13">然后另外一撮人的话呢</text-style>
+                                </text>
+                                <text-style-def id="ts13">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="89500/6000s" name="他可能技术没啥技术他一天天在跟你" start="180300/6000s" duration="31600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="180300/6000s" name="他可能技术没啥技术" start="1300/6000s" duration="9400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts14">他可能技术没啥技术</text-style>
+                                </text>
+                                <text-style-def id="ts14">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1897/60s" name="他一天天在跟你讲" duration="7600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts15">他一天天在跟你讲</text-style>
+                                </text>
+                                <text-style-def id="ts15">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="197300/6000s" name="哎呀AI能干这" start="800/6000s" duration="8600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts16">哎呀AI能干这</text-style>
+                                </text>
+                                <text-style-def id="ts16">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="205900/6000s" name="AI能干那" start="2600/6000s" duration="1s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts17">AI能干那</text-style>
+                                </text>
+                                <text-style-def id="ts17">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="121100/6000s" name="AI" start="214200/6000s" duration="4100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="214200/6000s" name="AI" start="1000/6000s" duration="4100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts18">AI</text-style>
+                                </text>
+                                <text-style-def id="ts18">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="125200/6000s" name="一件就赚钱一件就干什么事" start="229500/6000s" duration="13200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="153/4s" name="一键就赚钱" duration="6400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts19">一键就赚钱</text-style>
+                                </text>
+                                <text-style-def id="ts19">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.7882 0.6392 0.3608 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="235900/6000s" name="一键就干什么事" start="1300/6000s" duration="6800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts20">一键就干什么事</text-style>
+                                </text>
+                                <text-style-def id="ts20">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="138400/6000s" name="我都没有看到" start="276200/6000s" duration="8100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="276200/6000s" name="我都没有看到" start="2600/6000s" duration="8100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts21">我都没有看到</text-style>
+                                </text>
+                                <text-style-def id="ts21">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <chapter-marker start="228/5s" duration="100/6000s" value="痛点:没人懂落地"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="146500/6000s" name="几个那种" start="292300/6000s" duration="5100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="292300/6000s" name="几个那种" start="-700/6000s" duration="5100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts22">几个那种</text-style>
+                                </text>
+                                <text-style-def id="ts22">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="151600/6000s" name="技术" start="309700/6000s" duration="4800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3097/60s" name="技术" duration="4800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts23">懂技术</text-style>
+                                </text>
+                                <text-style-def id="ts23">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="156400/6000s" name="然后懂得" start="323800/6000s" duration="5900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="323800/6000s" name="然后懂得" start="2600/6000s" duration="5900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts24">然后懂得</text-style>
+                                </text>
+                                <text-style-def id="ts24">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="162300/6000s" name="怎么让AI在" start="333500/6000s" duration="8600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="333500/6000s" name="怎么让AI在" start="-400/6000s" duration="8600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts25">怎么让AI在</text-style>
+                                </text>
+                                <text-style-def id="ts25">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="170900/6000s" name="企业中" start="348600/6000s" duration="4900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="348600/6000s" name="企业中" start="1600/6000s" duration="4900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts26">企业中</text-style>
+                                </text>
+                                <text-style-def id="ts26">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="175800/6000s" name="落地" start="361700/6000s" duration="2700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3617/60s" name="落地" duration="2700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts27">落地</text-style>
+                                </text>
+                                <text-style-def id="ts27">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="178500/6000s" name="并且什么呢并且还知道" start="376800/6000s" duration="12900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="376800/6000s" name="并且什么呢并且还知道" start="1900/6000s" duration="12900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts28">并且什么呢并且还知道</text-style>
+                                </text>
+                                <text-style-def id="ts28">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="191400/6000s" name="对于不同的这种" start="409500/6000s" duration="6900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="409500/6000s" name="对于不同的这种" start="700/6000s" duration="6900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts29">对于不同的这种</text-style>
+                                </text>
+                                <text-style-def id="ts29">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="198300/6000s" name="业务形态啊不同的这种" start="425500/6000s" duration="11900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="851/12s" name="业务形态啊" duration="6300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts30">业务形态啊</text-style>
+                                </text>
+                                <text-style-def id="ts30">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="431800/6000s" name="不同的这种" start="1100/6000s" duration="5600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts31">不同的这种</text-style>
+                                </text>
+                                <text-style-def id="ts31">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="210200/6000s" name="团队形态啊" start="440500/6000s" duration="6500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="440500/6000s" name="团队形态啊" start="1000/6000s" duration="6500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts32">团队形态啊</text-style>
+                                </text>
+                                <text-style-def id="ts32">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="216700/6000s" name="要去搭配什么样子的AI工作流" start="451300/6000s" duration="4900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="451300/6000s" name="要去搭配什么样子的" start="1000/6000s" duration="4900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts33">要去搭配什么样子的</text-style>
+                                </text>
+                                <text-style-def id="ts33">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="221600/6000s" name="要去搭配什么样子的AI工作流" start="459300/6000s" duration="8000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="459300/6000s" name="要去搭配什么样子的" start="9000/6000s" duration="3800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts34">要去搭配什么样子的</text-style>
+                                </text>
+                                <text-style-def id="ts34">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="4631/60s" name="AI工作流" duration="4200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts35">AI工作流</text-style>
+                                </text>
+                                <text-style-def id="ts35">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.7882 0.6392 0.3608 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="229600/6000s" name="弄得很浅的话是有的那个是一大把的" start="492900/6000s" duration="19100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1643/20s" name="弄得很浅的话是有的" duration="13200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts36">弄得很浅的话是有的</text-style>
+                                </text>
+                                <text-style-def id="ts36">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="506100/6000s" name="那个是一大把的" start="500/6000s" duration="5900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts37">那个是一大把的</text-style>
+                                </text>
+                                <text-style-def id="ts37">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <chapter-marker start="1643/20s" duration="100/6000s" value="现状:弄得很浅"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="248700/6000s" name="给你搞个这种talk" start="527400/6000s" duration="5800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="527400/6000s" name="给你搞个这种" start="1400/6000s" duration="5800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts38">给你搞个这种</text-style>
+                                </text>
+                                <text-style-def id="ts38">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <marker start="263/3s" duration="100/6000s" value="B-roll建议:简单知识库demo画面" completed="0"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="254500/6000s" name="的agent帮" start="535200/6000s" duration="6400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="535200/6000s" name="对话的agent" start="-300/6000s" duration="6400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts39">套壳对话的agent</text-style>
+                                </text>
+                                <text-style-def id="ts39">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="260900/6000s" name="你整整这个" start="543900/6000s" duration="7300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1813/20s" name="帮你整整这个" duration="7300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts40">帮你整整这个</text-style>
+                                </text>
+                                <text-style-def id="ts40">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="268200/6000s" name="简单的知识库" start="555500/6000s" duration="6200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1111/12s" name="简单的知识库" duration="6200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts41">简单的知识库</text-style>
+                                </text>
+                                <text-style-def id="ts41">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="274400/6000s" name="团队知识库" start="566400/6000s" duration="4300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="472/5s" name="团队知识库" duration="4300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts42">团队知识库</text-style>
+                                </text>
+                                <text-style-def id="ts42">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="278700/6000s" name="至于现在很多人" start="604800/6000s" duration="8600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="504/5s" name="以至于现在很多人" duration="8600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts43">以至于现在很多人</text-style>
+                                </text>
+                                <text-style-def id="ts43">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="287300/6000s" name="用AI它又是这种很很杀核的" start="625000/6000s" duration="14000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="625/6s" name="用AI它又是这种很自嗨的" duration="8200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts44">用AI它又是这种很</text-style>
+                                </text>
+                                <text-style-def id="ts44">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="633200/6000s" name="用AI它又是这种很自嗨的" start="8200/6000s" duration="5800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/3296539967/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/3296539967/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/3296539967/21/75" value="0.99 0.99"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/3296539969/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/3296539969/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/3296539969/21/75" value="0.99 0.99"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts45">很</text-style>
+                                    <text-style ref="ts46">沙盒</text-style>
+                                    <text-style ref="ts45">的</text-style>
+                                </text>
+                                <text-style-def id="ts45">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts46">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.7882 0.6392 0.3608 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <chapter-marker start="625/6s" duration="100/6000s" value="金句:自嗨的封闭环境"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="301300/6000s" name="很封闭的环境" start="648800/6000s" duration="7100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1622/15s" name="很封闭的环境" duration="7100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/3296539977/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/3296539977/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/3296539977/21/75" value="0.99 0.99"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/3296539979/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/3296539979/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/3296539979/21/75" value="0.99 0.99"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts47">很</text-style>
+                                    <text-style ref="ts48">封闭</text-style>
+                                    <text-style ref="ts47">的环境</text-style>
+                                </text>
+                                <text-style-def id="ts47">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts48">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.7882 0.6392 0.3608 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="308400/6000s" name="什么叫很封闭的环境" start="659600/6000s" duration="9700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="659600/6000s" name="什么叫很封闭的环境" start="-300/6000s" duration="9700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts49">什么叫很封闭的环境就是</text-style>
+                                </text>
+                                <text-style-def id="ts49">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="318100/6000s" name="觉得自己AI用的其实还还挺不错的" start="681600/6000s" duration="15800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="568/5s" name="觉得自己AI用的" duration="7300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts50">觉得自己AI用的</text-style>
+                                </text>
+                                <text-style-def id="ts50">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="6889/60s" name="其实还挺不错的" duration="8500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts51">其实还挺不错的</text-style>
+                                </text>
+                                <text-style-def id="ts51">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="333900/6000s" name="然后AI也会跟你讲你用的确实还挺" start="710600/6000s" duration="23200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3553/30s" name="然后AI也会跟你讲" duration="7500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts52">然后AI也会跟你讲</text-style>
+                                </text>
+                                <text-style-def id="ts52">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="7181/60s" name="你用的确实还挺不错" duration="7600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts53">你用的确实还挺不错</text-style>
+                                </text>
+                                <text-style-def id="ts53">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="2419/20s" name="你思路挺清晰的" duration="8100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts54">你思路挺清晰的</text-style>
+                                </text>
+                                <text-style-def id="ts54">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="357100/6000s" name="实际上就是你真的横向对比一下纵向" start="752800/6000s" duration="41900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1882/15s" name="实际上就是你真的" duration="9500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts55">实际上就是你真的</text-style>
+                                </text>
+                                <text-style-def id="ts55">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="2541/20s" name="横向对比一下" duration="6300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts56">横向对比一下</text-style>
+                                </text>
+                                <text-style-def id="ts56">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1281/10s" name="纵向对比一下" duration="9200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts57">纵向对比一下</text-style>
+                                </text>
+                                <text-style-def id="ts57">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="777800/6000s" name="你会发现自己" start="2800/6000s" duration="4400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts58">你会发现自己</text-style>
+                                </text>
+                                <text-style-def id="ts58">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="3911/30s" name="还是有差距的" duration="12500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/3296540047/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/3296540047/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/3296540047/21/75" value="0.99 0.99"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/3296540049/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/3296540049/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/3296540049/21/75" value="0.99 0.99"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts59">还是</text-style>
+                                    <text-style ref="ts60">有差距</text-style>
+                                    <text-style ref="ts59">的</text-style>
+                                </text>
+                                <text-style-def id="ts59">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                                <text-style-def id="ts60">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="120" fontFace="Regular" fontColor="0.7882 0.6392 0.3608 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <chapter-marker start="1882/15s" duration="100/6000s" value="收尾:对比才见差距"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="399000/6000s" name="但是你有没有这个对比的环境" start="798700/6000s" duration="9700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="7987/60s" name="但是你有没有" duration="4000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts61">但是你有没有</text-style>
+                                </text>
+                                <text-style-def id="ts61">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="8027/60s" name="这个对比的环境" duration="5700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts62">这个对比的环境</text-style>
+                                </text>
+                                <text-style-def id="ts62">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <marker start="7987/60s" duration="100/6000s" value="B-roll建议:AI夸人的聊天截图" completed="0"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="408700/6000s" name="就是现在" start="829100/6000s" duration="7800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="8291/60s" name="就是现在" duration="7800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts63">就是现在</text-style>
+                                </text>
+                                <text-style-def id="ts63">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="416500/6000s" name="我觉得AI的一个现状" start="845000/6000s" duration="11300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="845/6s" name="我觉得AI的一个现状" duration="11300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <param name="融合模式" key="9999/999166631/999166633/5/999166635/21/25/5" value="1 (重复)"/>
+                                <param name="距离" key="9999/999166631/999166633/5/999166635/21/27" value="6"/>
+                                <param name="模糊" key="9999/999166631/999166633/5/999166635/21/75" value="0.99 0.99"/>
+                                <text>
+                                    <text-style ref="ts64">我觉得AI的一个现状</text-style>
+                                </text>
+                                <text-style-def id="ts64">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" shadowColor="0 0 0 0.75" shadowOffset="6 315" shadowBlurRadius="1.98" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="项目" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="所有视频" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="仅音频" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="静止图像" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="个人收藏" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+        <smart-collection name="缺少分析" match="all">
+            <match-analysis-type rule="isMissing" value="any"/>
+        </smart-collection>
+    </library>
+</fcpxml>

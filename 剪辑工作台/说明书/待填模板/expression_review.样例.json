@@ -1,0 +1,107 @@
+{
+ "schema": "kbcg-xgz/expression_review@2",
+ "word_track_sha256": "<p1c 生成，勿手填>",
+ "keep_sha256": "<p1c 生成，勿手填>",
+ "candidate_policy": "词表只发现候选，不决定删留；必须听原音并按句法、命题、情绪和上下文逐项裁决",
+ "micro_candidates": [
+  {
+   "candidate_id": "M000004-<指纹>",
+   "context_fingerprint": "<p1c 生成>",
+   "candidate_type": "micro_term",
+   "word_index": 4,
+   "text": "吧",
+   "start": 1.68,
+   "end": 1.9,
+   "context_before": "跑两步",
+   "context_after": "就回",
+   "decision": "drop",
+   "function": "pure_filler",
+   "caption_action": "not_applicable",
+   "reason": "所在句已整段删除（keep.drop），这个「吧」随该段一并删除，无任何语义贡献。",
+   "acoustic_review": "heard"
+  },
+  {
+   "candidate_id": "M000022-<指纹>",
+   "context_fingerprint": "<p1c 生成>",
+   "candidate_type": "self_correction_marker",
+   "word_index": 22,
+   "text": "不是",
+   "start": 5.76,
+   "end": 6.08,
+   "context_before": "是我没跑",
+   "context_after": "是他们说",
+   "decision": "not_micro",
+   "function": "lexical_content",
+   "caption_action": "show",
+   "reason": "此处的「不是」是实义否定判断，承担命题内容，并非自我更正时的冗余插入，保留原声并显示字幕。",
+   "acoustic_review": "heard"
+  },
+  {
+   "candidate_id": "M000060-<指纹>",
+   "context_fingerprint": "<p1c 生成>",
+   "candidate_type": "micro_term",
+   "word_index": 60,
+   "text": "啊",
+   "start": 16.08,
+   "end": 16.32,
+   "context_before": "在毅力",
+   "context_after": "在方法",
+   "decision": "retain",
+   "function": "transition",
+   "caption_action": "show",
+   "reason": "转折句的提顿语气词，承担话题标记与过渡作用；删除后转折变得生硬，保留原声并显示字幕。",
+   "acoustic_review": "heard"
+  }
+ ],
+ "residual_candidates": [
+  {
+   "residual_id": "R0019",
+   "block_index": 19,
+   "start": 52.416,
+   "end": 52.84,
+   "duration": 0.424,
+   "next_word_index": 30,
+   "next_word_text": "方",
+   "decision": "breath_noise",
+   "recognized_text": "",
+   "reason": "该 0.42s 有声残段贴在句头，是换气起音的弱气声，无清晰语义内容；删声不影响句意，段头内收即自然排除。",
+   "acoustic_review": "heard"
+  }
+ ],
+ "pause_candidates": [
+  {
+   "candidate_id": "P000023-000024-<指纹>",
+   "context_fingerprint": "<p1c 生成>",
+   "left_word_index": 23,
+   "right_word_index": 24,
+   "left_text": "的",
+   "right_text": "大",
+   "left_end": 6.56,
+   "right_start": 7.488,
+   "source_gap_s": 0.928,
+   "context_before": "大部分人都归到毅力",
+   "context_after": "家就默认",
+   "decision": "retain",
+   "function": "sentence_boundary",
+   "reason": "前句收束后转入下一话题，0.93s 是话题切换的句间气口，压缩会挤掉换句的呼吸。",
+   "acoustic_review": "heard"
+  },
+  {
+   "candidate_id": "P000060-000061-<指纹>",
+   "context_fingerprint": "<p1c 生成>",
+   "left_word_index": 60,
+   "right_word_index": 61,
+   "left_text": "啊",
+   "right_text": "你",
+   "left_end": 16.32,
+   "right_start": 18.56,
+   "source_gap_s": 2.24,
+   "context_before": "不在毅力",
+   "context_after": "把起床时间",
+   "decision": "compress",
+   "function": "ineffective_wait",
+   "reason": "前句以「啊」收束、后句另起方法部分，中间 2.24s 是纯空白无效等待，无语义、情绪或动作功能，压缩成一拍过渡。",
+   "acoustic_review": "heard"
+  }
+ ]
+}

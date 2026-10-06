@@ -1,0 +1,124 @@
+{
+  "schema": "xugongzi-win/deploy-contract@1",
+  "skill_name": "kbcg-xgz-win-workbuddy",
+  "pinned_at": "2026-09-14",
+  "verified_on": "Windows 10/11 x64 · 2026-09-14 全链实跑 EXIT=0（p0 → F1 → finalize jianying → 登记）",
+  "note": "本文件是钉死项的唯一真值。bootstrap.py 逐项对照；安装说明.md 是它的可读版本。改动任何一项都必须重跑一次全链才能重新声明可用。",
+
+  "host": {
+    "required": "WorkBuddy（桌面版）",
+    "why": "Skill 的决策层由宿主内置模型产出，宿主换了则模型、工具集、文件写入权限全都变。",
+    "skills_dir_windows": "%USERPROFILE%/.workbuddy/skills/<skill-name>/",
+    "verified": true
+  },
+
+  "model": {
+    "required": "GLM 5.3 Flash 或 DeepSeek V4.1 Flash（二选一）",
+    "recommended": ["GLM 5.3 Flash", "DeepSeek V4.1 Flash"],
+    "why": "本 Skill 的决策层（content_plan / keep / expression_review / structure / cards / cut_review）是模型输出，不是代码算出来的。契约脚本只校验格式、哈希与内部一致性，管不了判断质量。换推荐清单之外的模型会让断句、口癖删留、Hook 选择整体漂移，而 42 项契约测试仍然全绿 —— 测试不会报警。这两个模型均经过实测验证：性价比高、速度可接受。",
+    "enforcement": "软闸：SKILL.md「宿主与模型约束」节要求开工前先确认宿主与模型；不一致时必须停下向用户报告，不得静默按判断开工。",
+    "verified": "DeepSeek V4.1 Flash（2026-09-14 全链实跑 EXIT=0）；GLM 5.3 Flash 为实测推荐的等效档"
+  },
+
+  "os": {
+    "required": "Windows 10 / 11 · x64",
+    "verified": "Windows（本机 5.9.0.11632 版剪映）"
+  },
+
+  "python": {
+    "min_version": "3.11",
+    "verified_version": "3.13.14",
+    "why_3_13": "与已验收的 torch 2.14.0+cu126 / transformers 5.17.0 轮子匹配；3.11+ 是 CapCutMate 的 own 声明下界。",
+    "interpreter_resolution": [
+      "环境变量 XGZ_PIPELINE_PY",
+      "<skill>/.venv/Scripts/python.exe",
+      "%USERPROFILE%/.workbuddy/binaries/python/envs/asr-win/Scripts/python.exe",
+      "当前解释器（sys.executable）"
+    ],
+    "exceptions": "唯一例外：p4j_出剪映草稿.py 必须跑 CapCutMate 自己的 venv，由 pipeline.py 自动处理，不要手工改。"
+  },
+
+  "pipeline_packages": {
+    "comment": "管线环境必须全部可 import，doctor 逐项探测。",
+    "numpy": "2.5.3",
+    "torch": "2.14.0+cu126",
+    "torchaudio": "2.11.0",
+    "transformers": "5.17.0",
+    "accelerate": "1.15.0",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "silero-vad": "6.2.1",
+    "soundfile": "0.14.0",
+    "jieba": "0.42.1",
+    "huggingface-hub": "1.31.0",
+    "av": "18.1.0",
+    "tokenizers": "0.23.2",
+    "torch_index_url": "https://download.pytorch.org/whl/cu126",
+    "torch_cpu_alternative": "无显卡的机器用 https://download.pytorch.org/whl/cpu（功能等价，转写慢约 3.7 倍；实测 RTF 0.547 vs 0.147）"
+  },
+
+  "external_tools": {
+    "ffmpeg": "必须在 PATH（实测版本走 scoop shims）",
+    "ffprobe": "同上"
+  },
+
+  "models": {
+    "asr": {
+      "id": "mobiuslabsgmbh/faster-whisper-large-v3-turbo",
+      "alias": "large-v3-turbo",
+      "how": "脚本_win/转写_faster_whisper.py 的 fetch_model()，snapshot_download(local_dir=...) 实体复制",
+      "lands_at": "<skill>/模型/asr/mobiuslabsgmbh__faster-whisper-large-v3-turbo/",
+      "size_mb": 1546,
+      "required_files": ["config.json", "model.bin", "tokenizer.json", "vocabulary.json", "preprocessor_config.json"]
+    },
+    "aligner": {
+      "id": "Qwen/Qwen3-ForcedAligner-0.6B-hf",
+      "how": "HuggingFace 缓存（HF_HOME 或默认 ~/.cache/huggingface/hub）",
+      "size_mb": 1830,
+      "required_snapshot_files": ["config.json", "model.safetensors", "tokenizer.json", "processor_config.json"],
+      "gotcha": "HF 缓存在 Windows 上可能静默损坏：blobs/ 数据完好但 snapshots/<rev>/ 下是 0 字节空文件。不要急着重下，删掉空快照目录重新 snapshot_download 即可。"
+    },
+    "vad": {
+      "id": "silero-vad（随 pip 包 silero-vad 6.2.1 分发，首次调用可能拉权重）",
+      "how": "load_silero_vad()"
+    }
+  },
+
+  "capcut_mate": {
+    "repo": "https://github.com/Hommy-master/capcut-mate.git",
+    "commit": "96f36486a9341ae1ad9c81d8f087d2b4caa2eac6",
+    "commit_date": "2026-06-22",
+    "home_win": "%USERPROFILE%/Developer/capcut-mate",
+    "env_var": "CAPCUT_MATE_HOME",
+    "venv": ".venv/Scripts/python.exe",
+    "why": "p4j_出剪映草稿.py 用它的 pyJianYingDraft 生成本地剪映草稿结构；换提交会导致草稿版本字段/字体块结构漂移。",
+    "gotcha": "git checkout 会静默留下残缺工作树（少 30+ 文件）→ checkout 后必须 git status 核对 + checkout -f。"
+  },
+
+  "jianying": {
+    "required": "剪映专业版，必须已安装并至少启动过一次",
+    "verified_version": "5.9.0.11632",
+    "why": "草稿根位置只有启动过才写入设置；doctor 靠它定位草稿实体与索引。",
+    "notes": [
+      "草稿实体默认 <用户文档>/JianyingPro Drafts/，可在剪映「设置 → 草稿位置」改到别的盘；",
+      "草稿箱索引真身在 %LOCALAPPDATA%/JianyingPro/User Data/Projects/com.lveditor.draft/root_meta_info.json（不在草稿实体根下）；",
+      "剪映本体常驻会实时改写草稿 meta 并自行加索引行 → 实机验收前建议先退出剪映。"
+    ]
+  },
+
+  "fonts": {
+    "default": "新青年体",
+    "default_resource_id": "6740435892441190919",
+    "table": "字体/剪映字体表.json（711 个字体 / 免费 393）",
+    "how_to_rebuild": "脚本_win/gen_font_table.py（从 CapCutMate 的 FontType 生成，所以必须先装 CapCutMate）",
+    "how_to_switch": "p0_建工作区.py --font <剪映字体名|资源id>；写进 config.json.font 与 decision_lock 哈希，生成与验收共读同一真值。换字体必须同时调整字号/位置（见 SKILL.md P4）。",
+    "note": "字幕绑定剪映内置字体资源 id，不要求对方预装作者本机的字体文件。字体块的 path 字段是 CapCutMate 的占位符，剪映按 id 解析，属于上游刻意行为。"
+  },
+
+  "vocabulary": {
+    "delivery_state_structural": "complete_structural",
+    "delivery_state_runtime": "complete_runtime_verified",
+    "material_type_frozen": "single_speaker",
+    "note": "material_type 是冻结项，写进 config.json 并进 decision_lock 哈希；冻结后改动等于锁失效，全链要重跑。"
+  }
+}

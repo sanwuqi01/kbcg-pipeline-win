@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.14">
+    <resources>
+        <format id="r1" frameDuration="100/6000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r2" name="C2901.MP4" uid="5D9D45A978DEA0940D581D7E318AE3CE" start="0s" duration="35585550/60000s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="5D9D45A978DEA0940D581D7E318AE3CE" src="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E9%87%91/8%E6%9C%88/C2901.MP4">
+                <bookmark>Ym9va3QEAAAAAAUQQAAAAK9KkT24HOSzq/UMVd/3fhrsoU5gg+Yl+az9qDKyU5l8AAAAAAAAAAAAAAAAAAAAAFQDAAAgAAAAAQIAANhgns7YhQZm+z6El5+VVDoStYDW3/rySKgiPJn/q6tfBAAAAAMDAAAAGAAoBwAAAAEBAABWb2x1bWVzAAcAAAABAQAA5oSP5L+uMQADAAAAAQEAAOmHkQAEAAAAAQEAADjmnIgJAAAAAQEAAEMyOTAxLk1QNAAAABQAAAABBgAAOAAAAEgAAABYAAAAZAAAAHAAAAAIAAAABAMAAKVvAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAam0tAAAAAAAIAAAABAMAAL4xMwAAAAAACAAAAAQDAAC6wjMAAAAAABQAAAABBgAAoAAAALAAAADAAAAA0AAAAOAAAAAIAAAAAAQAAEHIFN/pAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABQAAAAQAAAADAwAAAwAAACQAAAABCQAAZmlsZTovLy9Wb2x1bWVzLyVFNiU4NCU4RiVFNCVCRiVBRTEvCAAAAAQDAAAAAAG/0QEAAAgAAAAABAAAQcWW4BVowf8kAAAAAQEAADk3NkEwRTYwLTZFRjUtNDU5My1CNkYyLTc2QTI1RjhCOTU5RhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy/mhI/kv64xCAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAUKEbcwAAAAgAAAAABAAAQcffgC8AAAAkAAAAAQEAAEU1NDBGOEExLUQ5NDktNDM4Ni05NUQyLTlEM0Y1NEVEOEYzMBgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAnAIAAAAAAAAFIAAADAIAAAAAAAAQIAAAHAIAAAAAAAARIAAAUAIAAAAAAAASIAAAMAIAAAAAAAATIAAAQAIAAAAAAAAgIAAAfAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAABADAAAcAwAAKAMAABwDAAAcAwAAHAMAANgAAAD+////AQAAAKgCAAARAAAABBAAAIQAAAAAAAAABRAAAPAAAAAAAAAAEBAAABwBAAAAAAAAQBAAAAwBAAAAAAAAVBAAAEQBAAAAAAAAVRAAAFABAAAAAAAAVhAAADwBAAAAAAAAACAAADQDAAAAAAAAAiAAAPQBAAAAAAAABSAAAFwBAAAAAAAAECAAAEgAAAAAAAAAESAAAKgBAAAAAAAAEiAAAIgBAAAAAAAAEyAAAJgBAAAAAAAAICAAANQBAAAAAAAAENAAACwAAAAAAAAAhPAAAAQAAAAAAAAA</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>线性PCM</string>
+                        <string>AVC Coding</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-08-11 12:36:47 +0800"/>
+            </metadata>
+        </asset>
+        <format id="r3" frameDuration="1001/60000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r4" name="C2903.MP4" uid="2811676159EA656347FA344797B734A1" start="0s" duration="16066050/60000s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="2811676159EA656347FA344797B734A1" src="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E9%87%91/8%E6%9C%88/C2903.MP4">
+                <bookmark>Ym9va3QEAAAAAAUQQAAAAOZS298SqfJhQgDksftW6VNUiULbXY12Wrt9dD0KcixZAAAAAAAAAAAAAAAAAAAAAFQDAAAgAAAAAQIAALZ88DF2Vj48SBeO02MUGlR6EYfs65htsumJT/2v+IZPBAAAAAMDAAAAGAAoBwAAAAEBAABWb2x1bWVzAAcAAAABAQAA5oSP5L+uMQADAAAAAQEAAOmHkQAEAAAAAQEAADjmnIgJAAAAAQEAAEMyOTAzLk1QNAAAABQAAAABBgAAOAAAAEgAAABYAAAAZAAAAHAAAAAIAAAABAMAAKVvAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAam0tAAAAAAAIAAAABAMAAL4xMwAAAAAACAAAAAQDAAC7wjMAAAAAABQAAAABBgAAoAAAALAAAADAAAAA0AAAAOAAAAAIAAAAAAQAAEHIFOJ0gAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABQAAAAQAAAADAwAAAwAAACQAAAABCQAAZmlsZTovLy9Wb2x1bWVzLyVFNiU4NCU4RiVFNCVCRiVBRTEvCAAAAAQDAAAAAAG/0QEAAAgAAAAABAAAQcWW4BVowf8kAAAAAQEAADk3NkEwRTYwLTZFRjUtNDU5My1CNkYyLTc2QTI1RjhCOTU5RhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy/mhI/kv64xCAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAUKEbcwAAAAgAAAAABAAAQcffgC8AAAAkAAAAAQEAAEU1NDBGOEExLUQ5NDktNDM4Ni05NUQyLTlEM0Y1NEVEOEYzMBgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAnAIAAAAAAAAFIAAADAIAAAAAAAAQIAAAHAIAAAAAAAARIAAAUAIAAAAAAAASIAAAMAIAAAAAAAATIAAAQAIAAAAAAAAgIAAAfAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAABADAAAcAwAAKAMAABwDAAAcAwAAHAMAANgAAAD+////AQAAAKgCAAARAAAABBAAAIQAAAAAAAAABRAAAPAAAAAAAAAAEBAAABwBAAAAAAAAQBAAAAwBAAAAAAAAVBAAAEQBAAAAAAAAVRAAAFABAAAAAAAAVhAAADwBAAAAAAAAACAAADQDAAAAAAAAAiAAAPQBAAAAAAAABSAAAFwBAAAAAAAAECAAAEgAAAAAAAAAESAAAKgBAAAAAAAAEiAAAIgBAAAAAAAAEyAAAJgBAAAAAAAAICAAANQBAAAAAAAAENAAACwAAAAAAAAAhPAAAAQAAAAAAAAA</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>线性PCM</string>
+                        <string>AVC Coding</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-08-11 12:36:47 +0800"/>
+            </metadata>
+        </asset>
+    </resources>
+    <library location="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E5%89%AA%E8%BE%91%E7%B4%A0%E6%9D%90%E8%B5%84%E6%BA%90/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E5%BA%93/%E9%87%91%E5%AF%BC.fcpbundle/">
+        <event name="粗剪听审" uid="3B92F58F-4EF9-45B0-8C2F-AD3B8A7ECBA9">
+            <project name="2026-08-11_IP做不起来是因为没人记住你_粗剪听审" uid="BC1C4984-7C0E-408B-A600-DBEF1915E6E8" modDate="2026-08-11 13:26:26 +0800">
+                <sequence format="r1" duration="2399900/6000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip ref="r2" offset="0s" name="C2901_粗剪段01" start="6700/6000s" duration="104300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="104300/6000s" name="C2901_粗剪段01" start="119900/6000s" duration="49600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="153900/6000s" name="C2901_粗剪段01" start="169500/6000s" duration="87300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="241200/6000s" name="C2901_粗剪段01" start="263100/6000s" duration="3800/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="245000/6000s" name="C2901_粗剪段01" start="288100/6000s" duration="5900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="250900/6000s" name="C2901_粗剪段01" start="273400/6000s" duration="13500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="264400/6000s" name="C2901_粗剪段02" start="358500/6000s" duration="13200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="277600/6000s" name="C2901_粗剪段02" start="381500/6000s" duration="23400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="301000/6000s" name="C2901_粗剪段03" start="469300/6000s" duration="21300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="322300/6000s" name="C2901_粗剪段03" start="539200/6000s" duration="14300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="336600/6000s" name="C2901_粗剪段03" start="563900/6000s" duration="17300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="353900/6000s" name="C2901_粗剪段03" start="696700/6000s" duration="86100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="440000/6000s" name="C2901_粗剪段03" start="797600/6000s" duration="10500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="450500/6000s" name="C2901_粗剪段03" start="822400/6000s" duration="96800/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="547300/6000s" name="C2901_粗剪段04" start="931500/6000s" duration="150200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="697500/6000s" name="C2901_粗剪段04" start="1086900/6000s" duration="39300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="736800/6000s" name="C2901_粗剪段04" start="1134200/6000s" duration="182300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="919100/6000s" name="C2901_粗剪段04" start="1342200/6000s" duration="79300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="998400/6000s" name="C2901_粗剪段04" start="1437300/6000s" duration="108800/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1107200/6000s" name="C2901_粗剪段04" start="1553100/6000s" duration="13700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1120900/6000s" name="C2901_粗剪段05" start="1583800/6000s" duration="39600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <marker start="5463/20s" duration="100/6000s" value="标记 2"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1160500/6000s" name="C2901_粗剪段05" start="1626900/6000s" duration="38900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <marker start="5463/20s" duration="100/6000s" value="标记 2"/>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1199400/6000s" name="C2901_粗剪段05" start="1673800/6000s" duration="129300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <marker start="5463/20s" duration="100/6000s" value="标记 2"/>
+                        </asset-clip>
+                        <asset-clip ref="r4" offset="1328700/6000s" name="C2903_粗剪段01" start="57800/6000s" duration="55100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <marker start="589/60s" duration="100/6000s" value="标记 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r4" offset="1383800/6000s" name="C2903_粗剪段01" start="123400/6000s" duration="120800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <marker start="589/60s" duration="100/6000s" value="标记 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r4" offset="1504600/6000s" name="C2903_粗剪段01" start="258600/6000s" duration="57200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <marker start="589/60s" duration="100/6000s" value="标记 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r4" offset="1561800/6000s" name="C2903_粗剪段01" start="55s" duration="15900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <marker start="589/60s" duration="100/6000s" value="标记 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r4" offset="1577700/6000s" name="C2903_粗剪段01" start="392100/6000s" duration="13600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <marker start="589/60s" duration="100/6000s" value="标记 1"/>
+                        </asset-clip>
+                        <asset-clip ref="r4" offset="1591300/6000s" name="C2903_粗剪段02" start="555400/6000s" duration="8500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1599800/6000s" name="C2903_粗剪段02" start="574700/6000s" duration="22100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1621900/6000s" name="C2903_粗剪段02" start="596800/6000s" duration="23500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1645400/6000s" name="C2903_粗剪段02" start="627200/6000s" duration="19000/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1664400/6000s" name="C2903_粗剪段03" start="732900/6000s" duration="33200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1697600/6000s" name="C2903_粗剪段04" start="801700/6000s" duration="30500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1728100/6000s" name="C2903_粗剪段04" start="836900/6000s" duration="18200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1746300/6000s" name="C2903_粗剪段04" start="865100/6000s" duration="5600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1751900/6000s" name="C2903_粗剪段04" start="875600/6000s" duration="3900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1755800/6000s" name="C2903_粗剪段04" start="889300/6000s" duration="170300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="1926100/6000s" name="C2903_粗剪段04" start="1066400/6000s" duration="136300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="2062400/6000s" name="C2903_粗剪段04" start="1211800/6000s" duration="160200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="2222600/6000s" name="C2903_粗剪段05" start="1376200/6000s" duration="4500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="2227100/6000s" name="C2903_粗剪段05" start="1387400/6000s" duration="23100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="2250200/6000s" name="C2903_粗剪段06" start="1445900/6000s" duration="7200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r4" offset="2257400/6000s" name="C2903_粗剪段06" start="1457700/6000s" duration="142500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="项目" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="所有视频" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="仅音频" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="静止图像" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="个人收藏" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+        <smart-collection name="缺少分析" match="all">
+            <match-analysis-type rule="isMissing" value="any"/>
+        </smart-collection>
+    </library>
+</fcpxml>

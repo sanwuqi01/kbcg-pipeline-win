@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.14">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p60" frameDuration="100/6000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r2" name="C2855.MP4" uid="30C69E42A1701E530D928F4EFA172169" start="0s" duration="21291270/60000s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="30C69E42A1701E530D928F4EFA172169" src="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E9%87%91/7%E6%9C%88/7%20%E6%9C%88%2020%20%E7%9B%B4%E6%92%AD%E5%88%87%E7%89%87/C2855.MP4">
+                <bookmark>Ym9va7AEAAAAAAUQQAAAADTENBA/7HGQeDcUxKUqXQTXVA7Tyj0sJyRx24B1I1yRAAAAAAAAAAAAAAAAAAAAAJADAAAgAAAAAQIAAIQtplyK5CGxFz9lX2T+/b1brueMuBgf/apBvBOSSTtYBAAAAAMDAAAAGAAoBwAAAAEBAABWb2x1bWVzAAcAAAABAQAA5oSP5L+uMQADAAAAAQEAAOmHkQAEAAAAAQEAADfmnIgVAAAAAQEAADcg5pyIIDIwIOebtOaSreWIh+eJhwAAAAkAAAABAQAAQzI4NTUuTVA0AAAAGAAAAAEGAAA4AAAASAAAAFgAAABkAAAAcAAAAJAAAAAIAAAABAMAAKVvAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAam0tAAAAAAAIAAAABAMAAJA4MgAAAAAACAAAAAQDAAC+ljIAAAAAAAgAAAAEAwAAwZYyAAAAAAAYAAAAAQYAAMQAAADUAAAA5AAAAPQAAAAEAQAAFAEAAAgAAAAABAAAQcgHJvwAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAFAAAABAAAAAMDAAAEAAAAJAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvJUU2JTg0JThGJUU0JUJGJUFFMS8IAAAABAMAAAAAAb/RAQAACAAAAAAEAABBxZbgFWjB/yQAAAABAQAAOTc2QTBFNjAtNkVGNS00NTkzLUI2RjItNzZBMjVGOEI5NTlGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzL+aEj+S/rjEIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAABQoRtzAAAACAAAAAAEAABBx9+ALwAAACQAAAABAQAARTU0MEY4QTEtRDk0OS00Mzg2LTk1RDItOUQzRjU0RUQ4RjMwGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADUAgAAAAAAAAUgAABEAgAAAAAAABAgAABUAgAAAAAAABEgAACIAgAAAAAAABIgAABoAgAAAAAAABMgAAB4AgAAAAAAACAgAAC0AgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAASAMAAFQDAABgAwAAVAMAAFQDAABUAwAAVAMAANgAAAD+////AQAAAOACAAARAAAABBAAAKQAAAAAAAAABRAAACQBAAAAAAAAEBAAAFQBAAAAAAAAQBAAAEQBAAAAAAAAVBAAAHwBAAAAAAAAVRAAAIgBAAAAAAAAVhAAAHQBAAAAAAAAACAAAGwDAAAAAAAAAiAAACwCAAAAAAAABSAAAJQBAAAAAAAAECAAAEgAAAAAAAAAESAAAOABAAAAAAAAEiAAAMABAAAAAAAAEyAAANABAAAAAAAAICAAAAwCAAAAAAAAENAAACwAAAAAAAAAhPAAAAQAAAAAAAAA</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>线性PCM</string>
+                        <string>AVC Coding</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-07-29 11:19:54 +0800"/>
+            </metadata>
+        </asset>
+        <format id="r3" name="FFVideoFormat1080p5994" frameDuration="1001/60000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <effect id="r4" name="基本字幕" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti"/>
+    </resources>
+    <library location="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E5%89%AA%E8%BE%91%E7%B4%A0%E6%9D%90%E8%B5%84%E6%BA%90/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E5%BA%93/%E9%87%91%E5%AF%BC.fcpbundle/">
+        <event name="金鳞0720切片" uid="258B2E47-B3DB-4EE8-B7BB-D60727AB3F8E">
+            <project name="企业AI落地难在哪" uid="AF5D3851-CF68-4F4F-8AA5-A989970BCB6B" modDate="2026-07-29 11:40:05 +0800">
+                <sequence format="r1" duration="1167400/6000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip ref="r2" offset="0s" name="企业AI" start="5000/6000s" duration="7300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5000/6000s" name="基本字幕" start="-1600/6000s" duration="7300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts1">企业AI</text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="7300/6000s" name="落地其实是一个非常庞大的" start="14500/6000s" duration="15200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="29/12s" name="落地 - 基本字幕" duration="3600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts2">落地</text-style>
+                                </text>
+                                <text-style-def id="ts2">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="18100/6000s" name="其实是一个非常庞大的 - 基本字幕" start="3600/6000s" duration="11600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts3">其实是一个非常庞大的</text-style>
+                                </text>
+                                <text-style-def id="ts3">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="22500/6000s" name="范围" start="44700/6000s" duration="2500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="149/20s" name="基本字幕" duration="2500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts4">范围</text-style>
+                                </text>
+                                <text-style-def id="ts4">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="25000/6000s" name="你看你讲这个词起AI落地企业" start="57700/6000s" duration="7500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="577/60s" name="基本字幕" duration="7500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts5">你看你讲这个词</text-style>
+                                </text>
+                                <text-style-def id="ts5">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="32500/6000s" name="你看你讲这个词起AI落地企业" start="69100/6000s" duration="12900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="69100/6000s" name="AI落地企业应用 - 基本字幕" start="3900/6000s" duration="16100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts6">AI落地企业应用</text-style>
+                                </text>
+                                <text-style-def id="ts6">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="45400/6000s" name="应用对吧" start="85500/6000s" duration="3200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="48600/6000s" name="里面要有AI" start="98200/6000s" duration="5600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="491/30s" name="基本字幕" duration="5600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts7">里面要有AI</text-style>
+                                </text>
+                                <text-style-def id="ts7">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="54200/6000s" name="并且能够落地" start="106300/6000s" duration="5800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1063/60s" name="基本字幕" duration="5800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts8">并且能够落地</text-style>
+                                </text>
+                                <text-style-def id="ts8">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="10s" name="还是跟企业相关" start="116700/6000s" duration="8800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="389/20s" name="基本字幕" duration="4700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts9">还是跟企业</text-style>
+                                </text>
+                                <text-style-def id="ts9">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="607/30s" name="基本字幕" duration="4100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts10">相关</text-style>
+                                </text>
+                                <text-style-def id="ts10">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="68800/6000s" name="它里面其实变量非常多的为什么说变量非常多" start="133700/6000s" duration="21600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1337/60s" name="基本字幕" duration="11800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts11">它里面其实变量非常多的</text-style>
+                                </text>
+                                <text-style-def id="ts11">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="97/4s" name="基本字幕" duration="9800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts12">为什么说变量非常多</text-style>
+                                </text>
+                                <text-style-def id="ts12">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="90400/6000s" name="我们就自己思考一个问题好吧" start="171900/6000s" duration="12200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="573/20s" name="基本字幕" duration="12200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts13">我们就自己思考一个问题好吧</text-style>
+                                </text>
+                                <text-style-def id="ts13">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="102600/6000s" name="理论上来讲" start="196500/6000s" duration="1s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="131/4s" name="基本字幕" duration="1s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts14">理论上来讲</text-style>
+                                </text>
+                                <text-style-def id="ts14">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="108600/6000s" name="这个全世界" start="208000/6000s" duration="13500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="104/3s" name="基本字幕" duration="13500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts15">这个全世界</text-style>
+                                </text>
+                                <text-style-def id="ts15">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="122100/6000s" name="能够把AI跟企业" start="243800/6000s" duration="12100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1219/30s" name="基本字幕" duration="12100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts16">能够把AI跟企业</text-style>
+                                </text>
+                                <text-style-def id="ts16">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="134200/6000s" name="落地落得比较好的" start="258300/6000s" duration="2s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="861/20s" name="基本字幕" duration="5500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts17">落地</text-style>
+                                </text>
+                                <text-style-def id="ts17">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1319/30s" name="基本字幕" duration="6500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts18">落得比较好的</text-style>
+                                </text>
+                                <text-style-def id="ts18">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="146200/6000s" name="其实应该是那些" start="275600/6000s" duration="8900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="689/15s" name="基本字幕" duration="8900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts19">其实应该是那些</text-style>
+                                </text>
+                                <text-style-def id="ts19">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="155100/6000s" name="大模型公司" start="296900/6000s" duration="6100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="296900/6000s" name="基本字幕" start="1600/6000s" duration="6100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts20">大模型公司</text-style>
+                                </text>
+                                <text-style-def id="ts20">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="161200/6000s" name="对不对那些科技公司" start="311200/6000s" duration="7100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="311200/6000s" name="那些科技公司 - 基本字幕" start="2700/6000s" duration="7100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts21">那些科技公司</text-style>
+                                </text>
+                                <text-style-def id="ts21">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="168300/6000s" name="但实际上" start="55s" duration="4100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="55s" name="基本字幕" start="1000/6000s" duration="4100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts22">但实际上</text-style>
+                                </text>
+                                <text-style-def id="ts22">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="172400/6000s" name="哪怕是" start="344600/6000s" duration="6200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1723/30s" name="基本字幕" duration="6200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts23">哪怕是</text-style>
+                                </text>
+                                <text-style-def id="ts23">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="178600/6000s" name="OpenAI跟Anthlopic" start="59s" duration="11000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="59s" name="基本字幕" duration="11000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts24">OpenAI跟Anthlopic</text-style>
+                                </text>
+                                <text-style-def id="ts24">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="189600/6000s" name="还有" start="368700/6000s" duration="3000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1229/20s" name="基本字幕" duration="3000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts25">还有</text-style>
+                                </text>
+                                <text-style-def id="ts25">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="192600/6000s" name="Gemini" start="376600/6000s" duration="3000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1883/30s" name="基本字幕" duration="3000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts26">Gemini</text-style>
+                                </text>
+                                <text-style-def id="ts26">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="195600/6000s" name="他们自己在AI落地的这个过程当中都是不断在探索不断在什么呢不断在" start="388300/6000s" duration="34800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3883/60s" name="他们自己在 - 基本字幕" duration="7800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts27">他们自己在</text-style>
+                                </text>
+                                <text-style-def id="ts27">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="396100/6000s" name="AI落地的这个过程当中 - 基本字幕" start="-1800/6000s" duration="10800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts28">AI落地的这个过程当中</text-style>
+                                </text>
+                                <text-style-def id="ts28">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="406900/6000s" name="都是不断在探索 - 基本字幕" start="2600/6000s" duration="7700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts29">都是不断在探索</text-style>
+                                </text>
+                                <text-style-def id="ts29">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="414600/6000s" name="不断在什么呢 - 基本字幕" start="-1200/6000s" duration="4400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts30">不断在什么呢</text-style>
+                                </text>
+                                <text-style-def id="ts30">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="419000/6000s" name="不断在优化 - 基本字幕" start="3200/6000s" duration="7400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts31">不断在优化</text-style>
+                                </text>
+                                <text-style-def id="ts31">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="230400/6000s" name="优化" start="427300/6000s" duration="3300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="233700/6000s" name="当然那我们肯定会说人家公司" start="437000/6000s" duration="2100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="437000/6000s" name="基本字幕" start="900/6000s" duration="2100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts32">当然</text-style>
+                                </text>
+                                <text-style-def id="ts32">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="235800/6000s" name="当然那我们肯定会说人家公司" start="444500/6000s" duration="10100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="444500/6000s" name="基本字幕" start="2800/6000s" duration="10100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts33">那我们肯定会说人家公司</text-style>
+                                </text>
+                                <text-style-def id="ts33">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="245900/6000s" name="太大了" start="462100/6000s" duration="3500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="4621/60s" name="基本字幕" duration="3500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts34">太大了</text-style>
+                                </text>
+                                <text-style-def id="ts34">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="249400/6000s" name="好那小公司也是一样的" start="471700/6000s" duration="9200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="4717/60s" name="基本字幕" duration="9200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts35">好那小公司也是一样的</text-style>
+                                </text>
+                                <text-style-def id="ts35">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="258600/6000s" name="再小公司哪怕是三五个人团队也是一样的" start="489100/6000s" duration="19300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="4891/60s" name="基本字幕" duration="3100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts36">再小公司</text-style>
+                                </text>
+                                <text-style-def id="ts36">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="2461/30s" name="哪怕是三五个人团队 - 基本字幕" duration="11000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts37">哪怕是三五个人团队</text-style>
+                                </text>
+                                <text-style-def id="ts37">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="503200/6000s" name="也是一样的 - 基本字幕" start="5100/6000s" duration="5200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts38">也是一样的</text-style>
+                                </text>
+                                <text-style-def id="ts38">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="277900/6000s" name="因为再怎么去" start="511800/6000s" duration="12700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="853/10s" name="基本字幕" duration="12700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts39">因为再怎么去</text-style>
+                                </text>
+                                <text-style-def id="ts39">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="290600/6000s" name="弄的话它里面都牵扯到什么呢" start="540600/6000s" duration="14300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="901/10s" name="基本字幕" duration="5200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts40">弄的话它里面</text-style>
+                                </text>
+                                <text-style-def id="ts40">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="2729/30s" name="基本字幕" duration="9100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts41">都牵扯到什么呢</text-style>
+                                </text>
+                                <text-style-def id="ts41">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="304900/6000s" name="好第一个我们怎么去把" start="558100/6000s" duration="11900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5581/60s" name="基本字幕" duration="5200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts42">好第一个</text-style>
+                                </text>
+                                <text-style-def id="ts42">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="5633/60s" name="基本字幕" duration="6700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts43">我们怎么去把</text-style>
+                                </text>
+                                <text-style-def id="ts43">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="316800/6000s" name="一家公司所有的业务环节" start="572300/6000s" duration="13700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5723/60s" name="基本字幕" duration="3900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts44">一家公司</text-style>
+                                </text>
+                                <text-style-def id="ts44">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="2881/30s" name="基本字幕" duration="9800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts45">所有的业务环节</text-style>
+                                </text>
+                                <text-style-def id="ts45">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="330500/6000s" name="怎么把它给拆开来" start="609500/6000s" duration="9900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1219/12s" name="基本字幕" duration="9900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts46">怎么把它给拆开来</text-style>
+                                </text>
+                                <text-style-def id="ts46">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="340400/6000s" name="好你" start="637000/6000s" duration="2100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="637/6s" name="好 - 基本字幕" duration="2100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts47">好</text-style>
+                                </text>
+                                <text-style-def id="ts47">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="342500/6000s" name="拆开完之后就结束了吗" start="641600/6000s" duration="11000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1604/15s" name="你拆开完之后 - 基本字幕" duration="5800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts48">你拆开完之后</text-style>
+                                </text>
+                                <text-style-def id="ts48">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1079/10s" name="基本字幕" duration="5200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts49">就结束了吗</text-style>
+                                </text>
+                                <text-style-def id="ts49">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="353500/6000s" name="并没有结束" start="655200/6000s" duration="5300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="546/5s" name="基本字幕" duration="5300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts50">并没有结束</text-style>
+                                </text>
+                                <text-style-def id="ts50">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="358800/6000s" name="对吧好每个环节" start="663500/6000s" duration="9800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1327/12s" name="基本字幕" duration="9800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts51">对吧好每个环节</text-style>
+                                </text>
+                                <text-style-def id="ts51">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="368600/6000s" name="AI它要怎么去介入" start="687500/6000s" duration="8700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1375/12s" name="基本字幕" duration="8700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts52">AI它要怎么去介入</text-style>
+                                </text>
+                                <text-style-def id="ts52">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="377300/6000s" name="它以什么方式去介入" start="699400/6000s" duration="8100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3497/30s" name="基本字幕" duration="5000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts53">它以什么方式</text-style>
+                                </text>
+                                <text-style-def id="ts53">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="587/5s" name="基本字幕" duration="3100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts54">去介入</text-style>
+                                </text>
+                                <text-style-def id="ts54">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="385400/6000s" name="它参与到哪一端" start="710900/6000s" duration="10400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="7109/60s" name="基本字幕" duration="10400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts55">它参与到哪一端</text-style>
+                                </text>
+                                <text-style-def id="ts55">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="395800/6000s" name="前面吗" start="727400/6000s" duration="4300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3637/30s" name="基本字幕" duration="4300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts56">前面吗</text-style>
+                                </text>
+                                <text-style-def id="ts56">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="400100/6000s" name="还是中间某个环节呢" start="734300/6000s" duration="9500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="7343/60s" name="基本字幕" duration="9500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts57">还是中间某个环节呢</text-style>
+                                </text>
+                                <text-style-def id="ts57">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="409600/6000s" name="还是什么" start="748300/6000s" duration="3200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="7483/60s" name="基本字幕" duration="3200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts58">还是什么</text-style>
+                                </text>
+                                <text-style-def id="ts58">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="412800/6000s" name="好这还没结束" start="755600/6000s" duration="6200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1889/15s" name="基本字幕" duration="6200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts59">好这还没结束</text-style>
+                                </text>
+                                <text-style-def id="ts59">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="419000/6000s" name="参与过后" start="770800/6000s" duration="5600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1927/15s" name="基本字幕" duration="5600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts60">参与过后</text-style>
+                                </text>
+                                <text-style-def id="ts60">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="424600/6000s" name="AI那个结果负责产出结果的那个" start="785000/6000s" duration="17700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="785/6s" name="基本字幕" duration="6800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts61">AI那个结果</text-style>
+                                </text>
+                                <text-style-def id="ts61">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="3959/30s" name="基本字幕" duration="10900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts62">负责产出结果的那个</text-style>
+                                </text>
+                                <text-style-def id="ts62">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="442300/6000s" name="环节" start="805200/6000s" duration="3300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="671/5s" name="基本字幕" duration="3300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts63">环节</text-style>
+                                </text>
+                                <text-style-def id="ts63">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="445600/6000s" name="谁来负责" start="814400/6000s" duration="4500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2036/15s" name="基本字幕" duration="4500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts64">谁来负责</text-style>
+                                </text>
+                                <text-style-def id="ts64">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="450100/6000s" name="谁来去盯那个结果" start="822800/6000s" duration="7800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2057/15s" name="基本字幕" duration="7800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts65">谁来去盯那个结果</text-style>
+                                </text>
+                                <text-style-def id="ts65">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="457900/6000s" name="是由部门领导去盯呢还是由这个岗位的人去盯呢好如果又是岗位的人去盯结果!" start="836100/6000s" duration="39200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2787/20s" name="基本字幕" duration="7100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts66">是由部门领导</text-style>
+                                </text>
+                                <text-style-def id="ts66">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="2108/15s" name="基本字幕" duration="5400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts67">去盯呢</text-style>
+                                </text>
+                                <text-style-def id="ts67">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="4243/30s" name="基本字幕" duration="8000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts68">还是由这个岗位的人</text-style>
+                                </text>
+                                <text-style-def id="ts68">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="4283/30s" name="基本字幕" duration="4000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts69">去盯呢好</text-style>
+                                </text>
+                                <text-style-def id="ts69">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="4303/30s" name="基本字幕" duration="8800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts70">如果又是岗位的人</text-style>
+                                </text>
+                                <text-style-def id="ts70">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1449/10s" name="基本字幕" duration="5900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts71">去盯结果!</text-style>
+                                </text>
+                                <text-style-def id="ts71">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="497100/6000s" name="那它原有的" start="877700/6000s" duration="6400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="8777/60s" name="基本字幕" duration="6400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts72">那它原有的</text-style>
+                                </text>
+                                <text-style-def id="ts72">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="503500/6000s" name="绩效怎么去算现在" start="891600/6000s" duration="7500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="743/5s" name="基本字幕" duration="7500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts73">绩效怎么去算现在</text-style>
+                                </text>
+                                <text-style-def id="ts73">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="511000/6000s" name="几乎是没有人会把AI的" start="905600/6000s" duration="18500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2264/15s" name="基本字幕" duration="11800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts74">几乎是没有人会</text-style>
+                                </text>
+                                <text-style-def id="ts74">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1529/10s" name="基本字幕" duration="6700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts75">把AI的</text-style>
+                                </text>
+                                <text-style-def id="ts75">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="529500/6000s" name="这个绩效算在" start="927500/6000s" duration="7900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1855/12s" name="基本字幕" duration="7900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts76">这个绩效算在</text-style>
+                                </text>
+                                <text-style-def id="ts76">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="537400/6000s" name="公司里面" start="941900/6000s" duration="4800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="9419/60s" name="基本字幕" duration="4800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts77">公司里面</text-style>
+                                </text>
+                                <text-style-def id="ts77">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="542200/6000s" name="知道吗" start="955100/6000s" duration="2600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="9551/60s" name="基本字幕" duration="2600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts78">知道吗</text-style>
+                                </text>
+                                <text-style-def id="ts78">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="544800/6000s" name="就目前我自己的体感上来讲就假设说" start="971100/6000s" duration="21500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3237/20s" name="基本字幕" duration="8700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts79">就目前我自己的体感</text-style>
+                                </text>
+                                <text-style-def id="ts79">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1633/10s" name="基本字幕" duration="12800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts80">上来讲就假设说</text-style>
+                                </text>
+                                <text-style-def id="ts80">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="566300/6000s" name="一个工作当中任何一个节点" start="998700/6000s" duration="14100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3329/20s" name="基本字幕" duration="7100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts81">一个工作当中</text-style>
+                                </text>
+                                <text-style-def id="ts81">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="5029/30s" name="基本字幕" duration="7000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts82">任何一个节点</text-style>
+                                </text>
+                                <text-style-def id="ts82">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="580400/6000s" name="它只要不是跟现实交互对不对" start="1028300/6000s" duration="19800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="10283/60s" name="基本字幕" duration="11600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts83">它只要不是跟现实</text-style>
+                                </text>
+                                <text-style-def id="ts83">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="10399/60s" name="基本字幕" duration="8200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts84">交互对不对</text-style>
+                                </text>
+                                <text-style-def id="ts84">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="600200/6000s" name="任何一个节点有AI去参与了假设说我们团队当中" start="1050300/6000s" duration="25800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3501/20s" name="基本字幕" duration="5000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts85">任何一个节点</text-style>
+                                </text>
+                                <text-style-def id="ts85">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="10553/60s" name="基本字幕" duration="13200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts86">有AI去参与了</text-style>
+                                </text>
+                                <text-style-def id="ts86">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="2137/12s" name="基本字幕" duration="7600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts87">假设说我们团队当中</text-style>
+                                </text>
+                                <text-style-def id="ts87">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="626000/6000s" name="它能够跟我" start="1084700/6000s" duration="5100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="10847/60s" name="基本字幕" duration="5100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts88">它能够跟我</text-style>
+                                </text>
+                                <text-style-def id="ts88">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="631100/6000s" name="百分百保证" start="1094900/6000s" duration="12300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="10949/60s" name="基本字幕" duration="12300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts89">百分百保证</text-style>
+                                </text>
+                                <text-style-def id="ts89">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="643400/6000s" name="AI负责这个节点" start="1109900/6000s" duration="8300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="11099/60s" name="基本字幕" duration="8300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts90">AI负责这个节点</text-style>
+                                </text>
+                                <text-style-def id="ts90">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="651700/6000s" name="它能够稳定产出并且它能够维护" start="1120400/6000s" duration="13700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2801/15s" name="基本字幕" duration="7500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts91">它能够稳定产出</text-style>
+                                </text>
+                                <text-style-def id="ts91">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="11279/60s" name="基本字幕" duration="6200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts92">并且它能够维护</text-style>
+                                </text>
+                                <text-style-def id="ts92">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="665400/6000s" name="我一定会给它算计较" start="1137900/6000s" duration="7400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3793/20s" name="我一定会给它算绩效的 - 基本字幕" duration="7400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts93">我一定会给它算绩效的</text-style>
+                                </text>
+                                <text-style-def id="ts93">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="672800/6000s" name="因为只要有动作" start="1169600/6000s" duration="9000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2924/15s" name="基本字幕" duration="9000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts94">因为只要有动作</text-style>
+                                </text>
+                                <text-style-def id="ts94">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="681800/6000s" name="它一定会有伤" start="1185600/6000s" duration="6500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1185600/6000s" name="它一定会有熵 - 基本字幕" start="1500/6000s" duration="6500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts95">它一定会有熵</text-style>
+                                </text>
+                                <text-style-def id="ts95">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="688300/6000s" name="AI也是一样任何个agent都是一样不管生成文案生成文件生成任何的资料" start="1227200/6000s" duration="31500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3068/15s" name="AI也是一样 - 基本字幕" duration="3400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts96">AI也是一样</text-style>
+                                </text>
+                                <text-style-def id="ts96">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1230600/6000s" name="任何一个agent都是一样 - 基本字幕" start="-1400/6000s" duration="5500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts97">任何一个agent都是一样</text-style>
+                                </text>
+                                <text-style-def id="ts97">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="12361/60s" name="基本字幕" duration="6600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts98">不管生成文案</text-style>
+                                </text>
+                                <text-style-def id="ts98">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="12427/60s" name="基本字幕" duration="7500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts99">生成文件</text-style>
+                                </text>
+                                <text-style-def id="ts99">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="6251/30s" name="基本字幕" duration="8500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts100">生成任何的资料</text-style>
+                                </text>
+                                <text-style-def id="ts100">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="719800/6000s" name="它一旦生产了" start="1262500/6000s" duration="1s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2525/12s" name="基本字幕" duration="1s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts101">它一旦生产了</text-style>
+                                </text>
+                                <text-style-def id="ts101">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="725800/6000s" name="好伤就开始了它就开始什么它就开始" start="1271300/6000s" duration="8700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="12713/60s" name="好熵就开始了 - 基本字幕" duration="8700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts102">好熵就开始了</text-style>
+                                </text>
+                                <text-style-def id="ts102">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="734500/6000s" name="好伤就开始了它就开始什么它就开始" start="1286900/6000s" duration="5200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1286900/6000s" name="基本字幕" start="1900/6000s" duration="5200/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts103">什么它就开始</text-style>
+                                </text>
+                                <text-style-def id="ts103">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="739700/6000s" name="上针了" start="1299200/6000s" duration="3700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3248/15s" name="熵增了 - 基本字幕" duration="3700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts104">熵增了</text-style>
+                                </text>
+                                <text-style-def id="ts104">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="743400/6000s" name="谁去" start="1309400/6000s" duration="3900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="6547/30s" name="基本字幕" duration="3900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts105">谁去</text-style>
+                                </text>
+                                <text-style-def id="ts105">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="747300/6000s" name="维护谁去监督呢" start="1315100/6000s" duration="7000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="13151/60s" name="基本字幕" duration="7000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts106">维护谁去监督呢</text-style>
+                                </text>
+                                <text-style-def id="ts106">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="754300/6000s" name="你看我们团队" start="1329900/6000s" duration="9900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="4433/20s" name="基本字幕" duration="9900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts107">你看我们团队</text-style>
+                                </text>
+                                <text-style-def id="ts107">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="764200/6000s" name="我们每个人都有个自己的私人助理的agent" start="1344500/6000s" duration="23300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1344500/6000s" name="我们每个人都有个 - 基本字幕" start="800/6000s" duration="5600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts108">我们每个人都有个</text-style>
+                                </text>
+                                <text-style-def id="ts108">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1350100/6000s" name="有个自己的 - 基本字幕" start="1700/6000s" duration="7100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts109">有个自己的</text-style>
+                                </text>
+                                <text-style-def id="ts109">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1357200/6000s" name="私人助理的agent - 基本字幕" start="-3800/6000s" duration="10600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts110">私人助理的agent</text-style>
+                                </text>
+                                <text-style-def id="ts110">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="787500/6000s" name="你一旦启用了它" start="1373300/6000s" duration="9700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="13733/60s" name="基本字幕" duration="9700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts111">你一旦启用了它</text-style>
+                                </text>
+                                <text-style-def id="ts111">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="797200/6000s" name="它就会开始运作了" start="1416500/6000s" duration="7300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2833/12s" name="基本字幕" duration="7300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts112">它就会开始运作了</text-style>
+                                </text>
+                                <text-style-def id="ts112">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="804500/6000s" name="比如说我们群里有一个agent是专门收集什么专门收集团队里面所有人的" start="1432200/6000s" duration="33500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2387/10s" name="基本字幕" duration="6100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts113">比如说我们群里</text-style>
+                                </text>
+                                <text-style-def id="ts113">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="14383/60s" name="基本字幕" duration="2s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts114">有一个agent是专门</text-style>
+                                </text>
+                                <text-style-def id="ts114">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="14503/60s" name="收集什么呢 - 基本字幕" duration="3700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts115">收集什么呢</text-style>
+                                </text>
+                                <text-style-def id="ts115">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1454000/6000s" name="专门收集团队 - 基本字幕" start="-1600/6000s" duration="5400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts116">专门收集团队</text-style>
+                                </text>
+                                <text-style-def id="ts116">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="7297/30s" name="基本字幕" duration="6300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts117">里面所有人的</text-style>
+                                </text>
+                                <text-style-def id="ts117">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="838000/6000s" name="任务" start="1467800/6000s" duration="2700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="7339/30s" name="基本字幕" duration="2700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts118">任务</text-style>
+                                </text>
+                                <text-style-def id="ts118">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="840700/6000s" name="进行" start="1472600/6000s" duration="3300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="7363/30s" name="进行归纳 - 基本字幕" duration="7400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts119">进行归纳</text-style>
+                                </text>
+                                <text-style-def id="ts119">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="844000/6000s" name="归纳进行" start="1480800/6000s" duration="7800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1484900/6000s" name="进行筛选 - 基本字幕" start="5600/6000s" duration="7000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts120">进行筛选</text-style>
+                                </text>
+                                <text-style-def id="ts120">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="851800/6000s" name="选进行跟踪" start="1495000/6000s" duration="2s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1498300/6000s" name="进行跟踪 - 基本字幕" start="3300/6000s" duration="8700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts121">进行跟踪</text-style>
+                                </text>
+                                <text-style-def id="ts121">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="863800/6000s" name="就基本上就你问" start="1520600/6000s" duration="11000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="7603/30s" name="基本字幕" duration="11000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts122">就基本上就你问</text-style>
+                                </text>
+                                <text-style-def id="ts122">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="874800/6000s" name="给他一个提示词" start="1533600/6000s" duration="7900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1278/5s" name="基本字幕" duration="7900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts123">给他一个提示词</text-style>
+                                </text>
+                                <text-style-def id="ts123">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="882700/6000s" name="上周干了啥" start="1545300/6000s" duration="1s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5151/20s" name="基本字幕" duration="1s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts124">上周干了啥</text-style>
+                                </text>
+                                <text-style-def id="ts124">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="888700/6000s" name="啪" start="1554200/6000s" duration="2000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="7771/30s" name="基本字幕" duration="2000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts125">啪</text-style>
+                                </text>
+                                <text-style-def id="ts125">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="890700/6000s" name="一堆" start="1575300/6000s" duration="2900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5251/20s" name="基本字幕" duration="2900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts126">一堆</text-style>
+                                </text>
+                                <text-style-def id="ts126">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="893600/6000s" name="你就得有人去负责他" start="1588300/6000s" duration="6800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="15883/60s" name="基本字幕" duration="6800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts127">你就得有人去负责他</text-style>
+                                </text>
+                                <text-style-def id="ts127">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="900400/6000s" name="就包括我们还有一个ag" start="1603300/6000s" duration="8100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="16033/60s" name="就包括我们还有一个 - 基本字幕" duration="8100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts128">就包括我们还有一个</text-style>
+                                </text>
+                                <text-style-def id="ts128">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="908500/6000s" name="ent是干嘛是专门做" start="1624900/6000s" duration="12300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1624900/6000s" name="Agent是干嘛 - 基本字幕" start="2000/6000s" duration="5900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts129">Agent是干嘛</text-style>
+                                </text>
+                                <text-style-def id="ts129">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1359/5s" name="基本字幕" duration="6400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts130">是专门做</text-style>
+                                </text>
+                                <text-style-def id="ts130">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="920800/6000s" name="营销节点" start="1639000/6000s" duration="8700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1639/6s" name="基本字幕" duration="8700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts131">营销节点</text-style>
+                                </text>
+                                <text-style-def id="ts131">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="929500/6000s" name="拆分的" start="1650700/6000s" duration="4400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="16507/60s" name="基本字幕" duration="4400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts132">拆分的</text-style>
+                                </text>
+                                <text-style-def id="ts132">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="933900/6000s" name="我都把它停用了" start="1665300/6000s" duration="5700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5551/20s" name="基本字幕" duration="5700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts133">我都把它停用了</text-style>
+                                </text>
+                                <text-style-def id="ts133">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="939600/6000s" name="为什么停用了因为它确实它每个月会根据" start="1674900/6000s" duration="25600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5583/20s" name="基本字幕" duration="9500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts134">为什么停用了因为它</text-style>
+                                </text>
+                                <text-style-def id="ts134">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="4211/15s" name="它确实 - 基本字幕" duration="7500/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts135">它确实</text-style>
+                                </text>
+                                <text-style-def id="ts135">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="16919/60s" name="它每个月会根据 - 基本字幕" duration="8600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts136">它每个月会根据</text-style>
+                                </text>
+                                <text-style-def id="ts136">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="965200/6000s" name="你的一些营销的节点" start="1703700/6000s" duration="12800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5679/20s" name="基本字幕" duration="12800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts137">你的一些营销的节点</text-style>
+                                </text>
+                                <text-style-def id="ts137">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="163s" name="好帮你设计好" start="1721400/6000s" duration="5400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2869/10s" name="基本字幕" duration="5400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts138">好帮你设计好</text-style>
+                                </text>
+                                <text-style-def id="ts138">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="983400/6000s" name="第一周你要干嘛第二周你要干嘛第三周你要干嘛" start="1730800/6000s" duration="15800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="4327/15s" name="第一周你要干嘛 - 基本字幕" duration="5100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts139">第一周你要干嘛</text-style>
+                                </text>
+                                <text-style-def id="ts139">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1735900/6000s" name="第二周你要干嘛 - 基本字幕" start="-1900/6000s" duration="4800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts140">第二周你要干嘛</text-style>
+                                </text>
+                                <text-style-def id="ts140">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="1740700/6000s" name="第三周你要干嘛 - 基本字幕" start="-2500/6000s" duration="5900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts141">第三周你要干嘛</text-style>
+                                </text>
+                                <text-style-def id="ts141">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="999200/6000s" name="对吧你朋友圈你要怎么去发你要获取什么样的素材" start="1753600/6000s" duration="19500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1753600/6000s" name="你朋友圈你要怎么去发 - 基本字幕" start="-3400/6000s" duration="10700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts142">你朋友圈你要怎么去发</text-style>
+                                </text>
+                                <text-style-def id="ts142">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="5881/20s" name="基本字幕" duration="3400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts143">你要获取</text-style>
+                                </text>
+                                <text-style-def id="ts143">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="17677/60s" name="基本字幕" duration="5400/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts144">什么样的素材</text-style>
+                                </text>
+                                <text-style-def id="ts144">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1018700/6000s" name="没有人可以负责那个节点" start="1794200/6000s" duration="11300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1794200/6000s" name="没有人可以负责那个节点 - 基本字幕" start="400/6000s" duration="11300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts145">没有人可以负责那个节点</text-style>
+                                </text>
+                                <text-style-def id="ts145">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1030000/6000s" name="好这还没有完啊" start="306s" duration="5800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="306s" name="基本字幕" duration="5800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts146">好这还没有完啊</text-style>
+                                </text>
+                                <text-style-def id="ts146">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1035800/6000s" name="这个企业落地都还没有完" start="1849800/6000s" duration="9900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="3083/10s" name="基本字幕" duration="3100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts147">这个企业</text-style>
+                                </text>
+                                <text-style-def id="ts147">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="18529/60s" name="基本字幕" duration="6800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts148">落地都还没有完</text-style>
+                                </text>
+                                <text-style-def id="ts148">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1045700/6000s" name="好这还只是按照" start="1868800/6000s" duration="6700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="4672/15s" name="基本字幕" duration="6700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts149">好这还只是按照</text-style>
+                                </text>
+                                <text-style-def id="ts149">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1052400/6000s" name="这个什么还是按照这个业务环节" start="1887400/6000s" duration="6800/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1887400/6000s" name="业务环节 - 基本字幕" start="5800/6000s" duration="6800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts150">业务环节</text-style>
+                                </text>
+                                <text-style-def id="ts150">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1059200/6000s" name="来去" start="1897300/6000s" duration="4200/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="18973/60s" name="来去算 - 基本字幕" duration="7000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts151">来去算</text-style>
+                                </text>
+                                <text-style-def id="ts151">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1063400/6000s" name="算对不对" start="1905900/6000s" duration="2800/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1066200/6000s" name="那还有其他的呢" start="1916800/6000s" duration="7000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="4792/15s" name="基本字幕" duration="7000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts152">那还有其他的呢</text-style>
+                                </text>
+                                <text-style-def id="ts152">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1073200/6000s" name="对吧你组织的这种协同方式呢" start="1928700/6000s" duration="13500/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="6429/20s" name="基本字幕" duration="5800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts153">对吧你组织的</text-style>
+                                </text>
+                                <text-style-def id="ts153">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="3869/12s" name="基本字幕" duration="7700/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts154">这种协同方式呢</text-style>
+                                </text>
+                                <text-style-def id="ts154">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1086700/6000s" name="你怎么去改变呢" start="1944100/6000s" duration="1s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="19441/60s" name="基本字幕" duration="1s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts155">你怎么去改变呢</text-style>
+                                </text>
+                                <text-style-def id="ts155">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1092700/6000s" name="你怎么去设计呢" start="1953700/6000s" duration="6600/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="19537/60s" name="基本字幕" duration="6600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts156">你怎么去设计呢</text-style>
+                                </text>
+                                <text-style-def id="ts156">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1099300/6000s" name="所以说现在就回到我前面讲那个话题就现在能把" start="2000200/6000s" duration="4400/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2000200/6000s" name="就回到我前面 - 基本字幕" start="1400/6000s" duration="8300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts157">就回到我前面</text-style>
+                                </text>
+                                <text-style-def id="ts157">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1103700/6000s" name="所以说现在就回到我前面讲那个话题就现在能把" start="2008800/6000s" duration="3900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1107600/6000s" name="所以说现在就回到我前面讲那个话题就现在能把" start="2015000/6000s" duration="10000/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="2015000/6000s" name="讲那个话题就现在能把 - 基本字幕" start="300/6000s" duration="10000/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts158">讲那个话题就现在能把</text-style>
+                                </text>
+                                <text-style-def id="ts158">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1117600/6000s" name="真的就是能把" start="2027600/6000s" duration="9300/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="5069/15s" name="基本字幕" duration="9300/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts159">真的就是能把</text-style>
+                                </text>
+                                <text-style-def id="ts159">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1126900/6000s" name="AI企业落地落得" start="2042000/6000s" duration="9900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="1021/3s" name="基本字幕" duration="6800/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts160">AI企业落地</text-style>
+                                </text>
+                                <text-style-def id="ts160">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="5122/15s" name="基本字幕" duration="3100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts161">落得</text-style>
+                                </text>
+                                <text-style-def id="ts161">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1136800/6000s" name="第一个就真落地了" start="2055100/6000s" duration="7100/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="20551/60s" name="基本字幕" duration="7100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts162">第一个就真落地了</text-style>
+                                </text>
+                                <text-style-def id="ts162">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1143900/6000s" name="有方法论成体系可复制" start="2072200/6000s" duration="16700/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="10361/30s" name="基本字幕" duration="11600/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts163">有方法论成体系</text-style>
+                                </text>
+                                <text-style-def id="ts163">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title ref="r4" lane="1" offset="3473/10s" name="基本字幕" duration="5100/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts164">可复制</text-style>
+                                </text>
+                                <text-style-def id="ts164">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1160600/6000s" name="很少" start="2092900/6000s" duration="2900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="20929/60s" name="基本字幕" duration="2900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts165">很少</text-style>
+                                </text>
+                                <text-style-def id="ts165">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                        <asset-clip ref="r2" offset="1163500/6000s" name="很少" start="2098700/6000s" duration="3900/6000s" tcFormat="NDF" audioRole="dialogue">
+                            <title ref="r4" lane="1" offset="20987/60s" name="基本字幕" duration="3900/6000s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -400"/>
+                                <param name="展平" key="9999/999166631/999166633/2/351" value="1"/>
+                                <param name="对齐" key="9999/999166631/999166633/2/354/999169573/401" value="1 (居中)"/>
+                                <text>
+                                    <text-style ref="ts166">很少</text-style>
+                                </text>
+                                <text-style-def id="ts166">
+                                    <text-style font="XQjuzhentiZJSY" fontSize="96" fontFace="Regular" fontColor="0.9529 0.9255 0.8784 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="项目" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="所有视频" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="仅音频" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="静止图像" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="个人收藏" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+        <smart-collection name="缺少分析" match="all">
+            <match-analysis-type rule="isMissing" value="any"/>
+        </smart-collection>
+    </library>
+</fcpxml>

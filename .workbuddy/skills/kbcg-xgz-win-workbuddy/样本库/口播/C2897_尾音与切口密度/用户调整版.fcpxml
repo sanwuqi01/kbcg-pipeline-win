@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.14">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p60" frameDuration="100/6000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r2" name="C2897.MP4" uid="6A318AAA1168EC9FEB7AE7118EF799E5" start="0s" duration="20720700/60000s" hasVideo="1" format="r3" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" sig="6A318AAA1168EC9FEB7AE7118EF799E5" src="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E9%87%91/8%E6%9C%88/C2897.MP4">
+                <bookmark>Ym9va3QEAAAAAAUQQAAAAFf2iLYOTwe4Nnl8YDpZdhW4LzCFh776Vxal7M7bDF61AAAAAAAAAAAAAAAAAAAAAFQDAAAgAAAAAQIAAMLZq/ZmqmmKv1pT3FwgtG3zxYao7cdJ8YihgIbKcv0OBAAAAAMDAAAAGAAoBwAAAAEBAABWb2x1bWVzAAcAAAABAQAA5oSP5L+uMQADAAAAAQEAAOmHkQAEAAAAAQEAADjmnIgJAAAAAQEAAEMyODk3Lk1QNAAAABQAAAABBgAAOAAAAEgAAABYAAAAZAAAAHAAAAAIAAAABAMAAKVvAAAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAam0tAAAAAAAIAAAABAMAAL4xMwAAAAAACAAAAAQDAADKXzMAAAAAABQAAAABBgAAoAAAALAAAADAAAAA0AAAAOAAAAAIAAAAAAQAAEHIEaBHAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABQAAAAQAAAADAwAAAwAAACQAAAABCQAAZmlsZTovLy9Wb2x1bWVzLyVFNiU4NCU4RiVFNCVCRiVBRTEvCAAAAAQDAAAAAAG/0QEAAAgAAAAABAAAQcWW4BVowf8kAAAAAQEAADk3NkEwRTYwLTZFRjUtNDU5My1CNkYyLTc2QTI1RjhCOTU5RhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy/mhI/kv64xCAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAUKEbcwAAAAgAAAAABAAAQcffgC8AAAAkAAAAAQEAAEU1NDBGOEExLUQ5NDktNDM4Ni05NUQyLTlEM0Y1NEVEOEYzMBgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAnAIAAAAAAAAFIAAADAIAAAAAAAAQIAAAHAIAAAAAAAARIAAAUAIAAAAAAAASIAAAMAIAAAAAAAATIAAAQAIAAAAAAAAgIAAAfAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAABADAAAcAwAAKAMAABwDAAAcAwAAHAMAANgAAAD+////AQAAAKgCAAARAAAABBAAAIQAAAAAAAAABRAAAPAAAAAAAAAAEBAAABwBAAAAAAAAQBAAAAwBAAAAAAAAVBAAAEQBAAAAAAAAVRAAAFABAAAAAAAAVhAAADwBAAAAAAAAACAAADQDAAAAAAAAAiAAAPQBAAAAAAAABSAAAFwBAAAAAAAAECAAAEgAAAAAAAAAESAAAKgBAAAAAAAAEiAAAIgBAAAAAAAAEyAAAJgBAAAAAAAAICAAANQBAAAAAAAAENAAACwAAAAAAAAAhPAAAAQAAAAAAAAA</bookmark>
+            </media-rep>
+            <metadata>
+                <md key="com.apple.proapps.studio.rawToLogConversion" value="0"/>
+                <md key="com.apple.proapps.studio.cameraISO" value="0"/>
+                <md key="com.apple.proapps.studio.cameraColorTemperature" value="0"/>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>线性PCM</string>
+                        <string>AVC Coding</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2026-08-10 11:36:47 +0800"/>
+            </metadata>
+        </asset>
+        <format id="r3" name="FFVideoFormat1080p5994" frameDuration="1001/60000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+    </resources>
+    <library location="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E5%89%AA%E8%BE%91%E7%B4%A0%E6%9D%90%E8%B5%84%E6%BA%90/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E5%BA%93/%E9%87%91%E5%AF%BC.fcpbundle/">
+        <event name="粗剪听审" uid="3B92F58F-4EF9-45B0-8C2F-AD3B8A7ECBA9">
+            <project name="2026-08-10_AI用不好先检查你的知识库_粗剪听审" uid="391E5849-1C9A-4EAB-A662-862AE4EBCFF9" modDate="2026-08-10 12:38:35 +0800">
+                <sequence format="r1" duration="1231000/6000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip ref="r2" offset="0s" name="为什么你用AI用的不好跟你用豆包,Claude Code跟Codex没有任何关系" start="27400/6000s" duration="28700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="28700/6000s" name="跟什么有关系呢跟你的知识库是有非常大的关系" start="58900/6000s" duration="19700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="48400/6000s" name="今天早上我让我的" start="89800/6000s" duration="4600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="53000/6000s" name="一个学员让他把他的知识库打包一份给我看了一下看完之后" start="107200/6000s" duration="27000/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="80000/6000s" name="我是又想笑又有点生气为什么发火他整个知识库大小只有" start="141800/6000s" duration="31300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="111300/6000s" name="哦35KB" start="208400/6000s" duration="7300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="118600/6000s" name="当然这个也不能说去嘲笑他" start="221800/6000s" duration="34400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="153000/6000s" name="因为他很多的这个知识库的话是" start="256500/6000s" duration="17900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="170900/6000s" name="图片但哪怕是文字的话呢35KB也确实太少了这也是为什么" start="277900/6000s" duration="40500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="211400/6000s" name="他很难去不断地让AI去产出一些符合他自己使用的一些资料" start="321900/6000s" duration="36400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="247800/6000s" name="因为我们知道AI它是一个什么它是一个通才论脑子的话它一定是目前" start="425600/6000s" duration="31900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="279700/6000s" name="最聪明的但是它这个聪明它并不一定它是只服务于" start="462800/6000s" duration="29500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="309200/6000s" name="你的那个行业你手上的那个工作他可以把你的那些工作回答到" start="494300/6000s" duration="30500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="339700/6000s" name="六十" start="533100/6000s" duration="4500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="344200/6000s" name="七十八十甚至九十" start="542000/6000s" duration="10800/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="355000/6000s" name="但是一旦需要落地的话他可能就差一些什么差一些" start="554800/6000s" duration="25500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="380500/6000s" name="样本" start="585400/6000s" duration="3200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="383700/6000s" name="他不知道你真正想要的文案他到底长什么样子" start="598800/6000s" duration="29000/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="412700/6000s" name="他也不知道你想要的那串代码他到底什么样子" start="627800/6000s" duration="35400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="448100/6000s" name="他的训练的过程当中给他注入提示词然后给你一个标准的答案" start="675500/6000s" duration="6s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="484100/6000s" name="他的训练的过程当中给他注入提示词然后给你一个标准的答案" start="716700/6000s" duration="6900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="491000/6000s" name="最容易犯的一个错误是" start="727700/6000s" duration="10400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="501400/6000s" name="你把以前很多没用的垃圾资料垃圾数据喂给了他" start="756200/6000s" duration="38700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="540100/6000s" name="你把以前很多没用的垃圾资料垃圾数据喂给了他" start="801100/6000s" duration="6600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="546700/6000s" name="任何一家公司" start="812000/6000s" duration="7700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="554400/6000s" name="或者说任何一个部门你可能都会有天南地北很多类型的" start="823000/6000s" duration="31900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="586300/6000s" name="文件或者资料" start="859000/6000s" duration="5600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="591900/6000s" name="有文档型的呀对吧有音频有视频乱七八糟的有文件" start="867900/6000s" duration="24100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="616000/6000s" name="好等等等等但是这所有的这个知识" start="892700/6000s" duration="22300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="638300/6000s" name="这些资料当中真正对于当下来讲" start="920600/6000s" duration="22500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="660800/6000s" name="对你这家企业或者对你个人这个工作手上这个项目来讲有帮助的" start="943600/6000s" duration="33200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="694000/6000s" name="到底有多少呢" start="980100/6000s" duration="5500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="699500/6000s" name="我就拿这个做短视频来讲如果说" start="996300/6000s" duration="20800/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="720300/6000s" name="你把你电脑上面所有那些的" start="1021700/6000s" duration="17500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="737800/6000s" name="文案啊样本不管是你自己的还是抄别人的还是扒别人的你都丢到AI里面那我请问" start="1045100/6000s" duration="39100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="776900/6000s" name="他怎么知道哪些是对的哪些是好的呢" start="1088400/6000s" duration="19900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="796800/6000s" name="就是说正因为我们" start="1242600/6000s" duration="11400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="808200/6000s" name="把一些完全没有用的一些" start="1256700/6000s" duration="15000/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="823200/6000s" name="废弃的资料或者说" start="1274800/6000s" duration="11400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="834600/6000s" name="没有这个怎么讲呢" start="1291300/6000s" duration="9100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="843700/6000s" name="参考性的资料你" start="1304400/6000s" duration="10500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="854200/6000s" name="喂给了AI它反而污染了它整个产出的" start="1317000/6000s" duration="20600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="874800/6000s" name="过程" start="1339500/6000s" duration="2700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="877500/6000s" name="那什么是对的呢" start="1344300/6000s" duration="6100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="883600/6000s" name="你跟AI在交互的过程当中OK" start="1373300/6000s" duration="21100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="904700/6000s" name="你产出了它产出了个结果你觉得OK这个是对的" start="1395200/6000s" duration="30400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="935100/6000s" name="你把这一段资料" start="1442200/6000s" duration="8400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="943500/6000s" name="把它给" start="1455700/6000s" duration="2600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="946100/6000s" name="保存下来成为你知识库当中的一份子" start="1461600/6000s" duration="19200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="965300/6000s" name="好这个才是重要" start="1485600/6000s" duration="5500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="970800/6000s" name="的要么成为资料" start="1494800/6000s" duration="6700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="977500/6000s" name="要么去把它给做成一个" start="1501200/6000s" duration="13700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="991200/6000s" name="Skill可以复用的一个技能" start="1520200/6000s" duration="2s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1003200/6000s" name="了总之你需要一个手段不断的让这个数据什么呢形成一个飞轮" start="1639500/6000s" duration="26000/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1029200/6000s" name="就是正确的样本留在知识库当中不重要的" start="1668800/6000s" duration="22900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1052100/6000s" name="这个样本要把它给剔除掉" start="1701600/6000s" duration="7800/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1059900/6000s" name="在几个月前" start="1722500/6000s" duration="7600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1067500/6000s" name="卡帕西提出了一套" start="1732200/6000s" duration="11300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1078800/6000s" name="那个知识库的理论" start="1746700/6000s" duration="8100/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1086900/6000s" name="我试了" start="1785100/6000s" duration="1s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1092900/6000s" name="一周后面我就" start="1793600/6000s" duration="7000/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1099900/6000s" name="放弃了" start="1803800/6000s" duration="2700/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1102600/6000s" name="它会不断" start="1832100/6000s" duration="5500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1108100/6000s" name="产生一些垃圾的数据去污染你整个工作当中的上下文" start="307s" duration="35200/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1143300/6000s" name="这个知识库" start="1919000/6000s" duration="4500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1147800/6000s" name="你觉得自己搭建的可能有点问题" start="1927800/6000s" duration="13900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1161700/6000s" name="你去联系主页" start="1947200/6000s" duration="11400/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1173100/6000s" name="我们给你一份" start="1981200/6000s" duration="5500/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1178600/6000s" name="参考资料" start="1991500/6000s" duration="4300/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1182900/6000s" name="让你知道" start="1998600/6000s" duration="4600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1187500/6000s" name="什么样的知识库它是相对来说比较标准的你也可以去参考一下你的知识库当中缺少" start="2006500/6000s" duration="40600/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                        <asset-clip ref="r2" offset="1228100/6000s" name="哪部分" start="2053400/6000s" duration="2900/6000s" tcFormat="NDF" audioRole="dialogue"/>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="项目" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="所有视频" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="仅音频" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="静止图像" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="个人收藏" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+        <smart-collection name="缺少分析" match="all">
+            <match-analysis-type rule="isMissing" value="any"/>
+        </smart-collection>
+    </library>
+</fcpxml>

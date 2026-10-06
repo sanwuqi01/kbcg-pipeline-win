@@ -1,0 +1,111 @@
+{
+ "goal": "用普通人视角讲清晨跑坚持不下来是方法问题不是毅力问题，并给出三个可执行动作",
+ "audience": "多次下决心晨跑又放弃、习惯把原因归到毅力上的上班族",
+ "main_claim": "晨跑坚持不下来多半不是毅力不够；把起床时间、起步跑量和正向反馈安排对，普通人也能长期跑下去",
+ "topic_blocks": [
+  {
+   "block_id": "B0",
+   "start_word": 0,
+   "end_word": 8,
+   "decision": "exclude",
+   "role": "场记杂音",
+   "reason": "开拍前的场务对话，与主题无关，且会让开头两秒听不出在讲什么"
+  },
+  {
+   "block_id": "B1",
+   "start_word": 9,
+   "end_word": 20,
+   "decision": "selected",
+   "role": "hook",
+   "reason": "真实挫败开场：说话人自述三次晨跑全放弃，痛点一眼可见，且不脱离原位、不歪曲事实"
+  },
+  {
+   "block_id": "B2",
+   "start_word": 21,
+   "end_word": 34,
+   "decision": "selected",
+   "role": "前提",
+   "reason": "点出「大部分人把失败归到毅力」，给后文的反转埋下语境"
+  },
+  {
+   "block_id": "B3",
+   "start_word": 35,
+   "end_word": 47,
+   "decision": "exclude",
+   "role": "废 take",
+   "reason": "同一句的重录弱版本：只讲到一半就中断，句意没落地，下一块已重新起头把整句讲完"
+  },
+  {
+   "block_id": "B4",
+   "start_word": 48,
+   "end_word": 60,
+   "decision": "selected",
+   "role": "转折",
+   "reason": "点破「问题不在毅力在方法」，是整条论证链的拐点"
+  },
+  {
+   "block_id": "B5",
+   "start_word": 61,
+   "end_word": 75,
+   "decision": "selected",
+   "role": "方法",
+   "reason": "第一条可执行动作：把起床时间绑定在既有习惯之后，降低启动成本"
+  },
+  {
+   "block_id": "B6",
+   "start_word": 76,
+   "end_word": 88,
+   "decision": "selected",
+   "role": "方法",
+   "reason": "第二条可执行动作：起步跑量减半，先保连续性再加强度"
+  },
+  {
+   "block_id": "B7",
+   "start_word": 89,
+   "end_word": 100,
+   "decision": "selected",
+   "role": "收束",
+   "reason": "第三条动作与回扣：跑完打卡给自己正向反馈，收在行动闭环上"
+  }
+ ],
+ "selected_story": [
+  {"block_id": "B1", "role": "hook", "reason": "真实挫败开场"},
+  {"block_id": "B2", "role": "前提", "reason": "点出归因误区"},
+  {"block_id": "B4", "role": "转折", "reason": "从毅力转到方法"},
+  {"block_id": "B5", "role": "方法", "reason": "绑定既有习惯"},
+  {"block_id": "B6", "role": "方法", "reason": "跑量减半保连续"},
+  {"block_id": "B7", "role": "收束", "reason": "打卡反馈，行动闭环"}
+ ],
+ "hook_candidates": [
+  {
+   "candidate_id": "H0",
+   "block_ids": ["B1"],
+   "hook_type": "conflict",
+   "strength_reason": "开局就是「三次晨跑全放弃」，挫败与自我怀疑同时出现，观众立刻想知道到底败在哪",
+   "open_loop_reason": "把「问题出在哪」这个问题打开但不给答案，答案要等方法部分讲完才落地"
+  },
+  {
+   "candidate_id": "H1",
+   "block_ids": ["B1", "B2"],
+   "hook_type": "natural_premise",
+   "strength_reason": "挫败之后立刻补上「大部分人都归到毅力」，既有冲突又交代了问题框架，不依赖爆点也听得懂",
+   "open_loop_reason": "归因前提一给出，观众会自然追问「那到底该归到哪」，后文用方法部分兑现"
+  }
+ ],
+ "selected_hook": "H0",
+ "review": {
+  "reviewer_type": "agent",
+  "status": "reviewed",
+  "reviewed_by": "<你的标识>",
+  "reviewed_at": "<ISO 时间>",
+  "sample_pairs": [
+   {
+    "name": "<从 样本库/成对样本清单.json 选真实条目>",
+    "material_type": "single_speaker",
+    "ai_sha256": "<清单里的 ai_sha256>",
+    "final_sha256": "<清单里的 final_sha256>",
+    "evidence": "diff_only"
+   }
+  ]
+ }
+}

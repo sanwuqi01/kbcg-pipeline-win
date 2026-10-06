@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.11">
+  <resources>
+    <format id="r1" frameDuration="100/6000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
+    <format id="rF0" name="FFVideoFormat1080p5994" frameDuration="1001/60000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
+    <format id="rF1" name="FFVideoFormat1080p5994" frameDuration="1001/60000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
+    <format id="rF2" name="FFVideoFormat1080p5994" frameDuration="1001/60000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
+    <asset id="rA0" name="C2900.MP4" start="0s" duration="2882880/60000s" hasVideo="1" hasAudio="1" format="rF0" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E9%87%91/8%E6%9C%88/C2900.MP4"/></asset>
+    <asset id="rA1" name="C2901.MP4" start="0s" duration="35585550/60000s" hasVideo="1" hasAudio="1" format="rF1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E9%87%91/8%E6%9C%88/C2901.MP4"/></asset>
+    <asset id="rA2" name="C2903.MP4" start="0s" duration="16066050/60000s" hasVideo="1" hasAudio="1" format="rF2" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///Volumes/%E6%84%8F%E4%BF%AE1/%E9%87%91/8%E6%9C%88/C2903.MP4"/></asset>
+  </resources>
+  <library>
+    <event name="粗剪听审">
+      <project name="2026-08-11_IP做不起来是因为没人记住你_粗剪听审">
+        <sequence format="r1" duration="3381200/6000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <asset-clip ref="rA0" offset="0/6000s" start="5900/6000s" duration="21200/6000s" name="C2900_粗剪段01" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA0" offset="21200/6000s" start="84300/6000s" duration="81400/6000s" name="C2900_粗剪段02" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA1" offset="102600/6000s" start="119900/6000s" duration="203900/6000s" name="C2901_粗剪段01" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA1" offset="306500/6000s" start="358500/6000s" duration="13200/6000s" name="C2901_粗剪段02" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA1" offset="319700/6000s" start="443100/6000s" duration="467600/6000s" name="C2901_粗剪段03" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA1" offset="787300/6000s" start="926800/6000s" duration="640000/6000s" name="C2901_粗剪段04" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA1" offset="1427300/6000s" start="1583800/6000s" duration="310000/6000s" name="C2901_粗剪段05" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA1" offset="1737300/6000s" start="1921800/6000s" duration="111200/6000s" name="C2901_粗剪段06" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA1" offset="1848500/6000s" start="2071100/6000s" duration="127500/6000s" name="C2901_粗剪段07" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA1" offset="1976000/6000s" start="2216600/6000s" duration="532100/6000s" name="C2901_粗剪段08" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA2" offset="2508100/6000s" start="58900/6000s" duration="346200/6000s" name="C2903_粗剪段01" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA2" offset="2854300/6000s" start="546200/6000s" duration="84800/6000s" name="C2903_粗剪段02" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA2" offset="2939100/6000s" start="734300/6000s" duration="37700/6000s" name="C2903_粗剪段03" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA2" offset="2976800/6000s" start="801700/6000s" duration="226100/6000s" name="C2903_粗剪段04" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA2" offset="3202900/6000s" start="1338800/6000s" duration="69800/6000s" name="C2903_粗剪段05" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA2" offset="3272700/6000s" start="1445900/6000s" duration="73400/6000s" name="C2903_粗剪段06" tcFormat="NDF" audioRole="dialogue"/><asset-clip ref="rA2" offset="3346100/6000s" start="1556500/6000s" duration="35100/6000s" name="C2903_粗剪段07" tcFormat="NDF" audioRole="dialogue"/>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>

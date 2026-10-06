@@ -1,0 +1,6 @@
+# 说明：本文件是 Codex 宿主的接口描述，Windows / WorkBuddy 版不读取它。
+# 保留于此仅为对照追溯（原 macOS Skill 原样）。Windows 版的触发信息见 SKILL.md 的 frontmatter。
+interface:
+  display_name: "口播视频剪映出草稿（Windows 版）"
+  short_description: "Windows + WorkBuddy 宿主：保持原素材属性，完成粗剪、字幕与剪映原生草稿交付（Final Cut 分支禁用）"
+  default_prompt: "使用口播出稿（Windows 版）保持原素材属性，完成对应类型的粗剪并内部冻结，生成字幕与剪映原生草稿；随后由用户人工三查（项目素材可见 / 时间线无无访问权限 / 播放器出画面）并记录才可报告交付完成。不要在 Windows 上生成 FCPXML。"

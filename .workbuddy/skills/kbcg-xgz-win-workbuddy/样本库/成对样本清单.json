@@ -1,0 +1,287 @@
+{
+  "schema": "kbcg-xgz/sample_pairs@2",
+  "pairs": [
+    {
+      "name": "AI圈的两撮人",
+      "material_type": "single_speaker",
+      "evidence_family_id": "single-speaker-ai圈的两撮人",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/AI圈的两撮人/AI版.fcpxml",
+      "ai_sha256": "7eacdefb0cb49ea75ff1d9a91865d942e9b5b8bdcce66d9453d4d939c7204735",
+      "final_path": "样本库/口播/AI圈的两撮人/终版.fcpxml",
+      "final_sha256": "a6f274edc2206cc52fc1d9b1ffbd75919d1a20bda514bd0dc2c519e876b26b0b",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries", "subtitle_diff_mixed"],
+      "known_defects": ["终版含字幕或包装，只能按实际差异分层学习"]
+    },
+    {
+      "name": "AI编程要不要懂代码",
+      "material_type": "single_speaker",
+      "evidence_family_id": "single-speaker-ai编程要不要懂代码",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/AI编程要不要懂代码/AI版.fcpxml",
+      "ai_sha256": "1183c16a892b04f34f48d15ae846e98bc7d45cdeaceb33444c3bde36f6248ef9",
+      "final_path": "样本库/口播/AI编程要不要懂代码/终版.fcpxml",
+      "final_sha256": "09a7185c7309c1771ef44428895c10cec1b95181dc2b38d2f0bc6e6110876f49",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries", "subtitle_diff_mixed"],
+      "known_defects": ["终版含字幕或包装，只能按实际差异分层学习"]
+    },
+    {
+      "name": "企业AI落地难在哪",
+      "material_type": "single_speaker",
+      "evidence_family_id": "single-speaker-企业ai落地难在哪",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/企业AI落地难在哪/AI版.fcpxml",
+      "ai_sha256": "742cee4c9aa86fd10e935122cb4899c225572283be1e06adcc60687159fdd377",
+      "final_path": "样本库/口播/企业AI落地难在哪/终版.fcpxml",
+      "final_sha256": "198595c320aab24185c7f69dafccc00696feddf3d5b6bf8c1593f7179c5b7949",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries", "subtitle_diff_mixed"],
+      "known_defects": ["音频保留与字幕显示并非天然一一对应"]
+    },
+    {
+      "name": "用上AI反而更忙",
+      "material_type": "single_speaker",
+      "evidence_family_id": "single-speaker-用上ai反而更忙",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/用上AI反而更忙/AI版.fcpxml",
+      "ai_sha256": "916847e954c63d0b1753faa4d4f748fdff71179ace590836cdb5112febcb08d3",
+      "final_path": "样本库/口播/用上AI反而更忙/终版.fcpxml",
+      "final_sha256": "4ad4b50fb79733b04d1862802e79977b460ec116ad311a565fc53dfdaa1b2ada",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries", "subtitle_diff_mixed"],
+      "known_defects": ["终版含字幕或包装，只能按实际差异分层学习"]
+    },
+    {
+      "name": "九紫离火",
+      "material_type": "single_speaker",
+      "evidence_family_id": "single-speaker-九紫离火",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/九紫离火/AI版.fcpxml",
+      "ai_sha256": "dc5de39d9311b91e9bb0dad95af7d8e69d6df85a646b3678836d2b79c6baca31",
+      "final_path": "样本库/口播/九紫离火/终版_精剪.fcpxml",
+      "final_sha256": "9a1dba50c8b47524f35546e1454b25c4d40f88d21b4f2afeaa0b8a43e36226e3",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries", "subtitle_diff_mixed", "packaging_mixed"],
+      "known_defects": ["终版含音乐、图片或效果，不能把整份 XML 当纯粗剪真值"]
+    },
+    {
+      "name": "C2867_智能体不智能",
+      "material_type": "single_speaker",
+      "evidence_family_id": "c2867-智能体不智能",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/C2867_智能体不智能/AI版.fcpxml",
+      "ai_sha256": "63dd8ee8070e71750518ec06ad04f06734e6af1a26c7e31bd1a5ee2c97a1d159",
+      "final_path": "样本库/口播/C2867_智能体不智能/终版_精剪.fcpxml",
+      "final_sha256": "d690fcd4fde20a3a3923d1d7420327476cd80a6baa76a8f2974a93f4462cec8e",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries", "subtitle_diff_mixed", "packaging_mixed"],
+      "known_defects": ["用户未修改处可能仍有 AI 残留，只学习实际差异"]
+    },
+    {
+      "name": "C2897_尾音与切口密度",
+      "material_type": "single_speaker",
+      "evidence_family_id": "c2897-知识库口播-2026-08",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/C2897_尾音与切口密度/AI第2版.fcpxml",
+      "ai_sha256": "0c2bc3a3679966e84326426c9a723f4ecfbc24c453fa7e674f57f72caae1429a",
+      "final_path": "样本库/口播/C2897_尾音与切口密度/用户精调第2版.fcpxml",
+      "final_sha256": "40c3c27cbef05438b5f49aefc0e955b32eacec3e0c6b310b0bd952b2ccab5be8",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries"],
+      "known_defects": ["无字幕，不能从 clip name 推断具体音节；用户版仍需独立声学验收"],
+      "revision_history": [
+        {
+          "revision": "第一轮",
+          "ai_path": "样本库/口播/C2897_尾音与切口密度/AI版.fcpxml",
+          "ai_sha256": "2dbb261ee672859286cd976f6792181a7b11e58b996857b753e1593e9317d452",
+          "final_path": "样本库/口播/C2897_尾音与切口密度/用户调整版.fcpxml",
+          "final_sha256": "9246af818d73a0454af2677c6c7cf32125682afad41a4820a8a04e85b4634f70"
+        },
+        {
+          "revision": "第二轮",
+          "ai_path": "样本库/口播/C2897_尾音与切口密度/AI第2版.fcpxml",
+          "ai_sha256": "0c2bc3a3679966e84326426c9a723f4ecfbc24c453fa7e674f57f72caae1429a",
+          "final_path": "样本库/口播/C2897_尾音与切口密度/用户精调第2版.fcpxml",
+          "final_sha256": "40c3c27cbef05438b5f49aefc0e955b32eacec3e0c6b310b0bd952b2ccab5be8"
+        }
+      ]
+    },
+    {
+      "name": "C2900_C2901_C2903_IP记忆点",
+      "material_type": "single_speaker",
+      "evidence_family_id": "c2900-c2901-c2903-IP记忆点-2026-08",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/C2900_C2901_C2903_IP记忆点/P1_AI粗剪初稿.fcpxml",
+      "ai_sha256": "0798ef59cdf316001a63c5d4798e5bc4bac727a7a94ce8c6192193de630bed58",
+      "final_path": "样本库/口播/C2900_C2901_C2903_IP记忆点/G1_用户确认粗剪.fcpxml",
+      "final_sha256": "164e5987452cbd6d25f7c8c46123b991262d3495a0171ae48ce6d8a55270f6c0",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_order", "multi_source_selection", "subtitle_alignment_style", "packaging_structure"],
+      "known_defects": ["同源多阶段证据，必须按 stage_chain 分层，不能扁平视为多个独立样本"],
+      "stage_chain": [
+        {
+          "stage": "P1",
+          "path": "样本库/口播/C2900_C2901_C2903_IP记忆点/P1_AI粗剪初稿.fcpxml",
+          "sha256": "0798ef59cdf316001a63c5d4798e5bc4bac727a7a94ce8c6192193de630bed58",
+          "scope": "rough_cut_baseline"
+        },
+        {
+          "stage": "F1",
+          "path": "样本库/口播/C2900_C2901_C2903_IP记忆点/G1_用户确认粗剪.fcpxml",
+          "sha256": "164e5987452cbd6d25f7c8c46123b991262d3495a0171ae48ce6d8a55270f6c0",
+          "scope": "rough_cut_user_refined"
+        },
+        {
+          "stage": "P2-P4",
+          "path": "样本库/口播/C2900_C2901_C2903_IP记忆点/P2-P4_基础字幕版.fcpxml",
+          "sha256": "550264d487abf9dab1a635d8183cbf56b119052356c8d37578988dd6f469e325",
+          "scope": "subtitle_alignment_style"
+        },
+        {
+          "stage": "P5",
+          "path": "样本库/口播/C2900_C2901_C2903_IP记忆点/P5_用户最终精简包装版.fcpxml",
+          "sha256": "0c4f079daffd446b8e9e3a2222bf1146f5df05e63ff0bcdc8936771f2f26955d",
+          "scope": "user_refined_packaging"
+        }
+      ]
+    },
+    {
+      "name": "DSCF2925_普通人用好AI的三个思维",
+      "material_type": "single_speaker",
+      "evidence_family_id": "dscf2925-普通人用好ai的三个思维-2026-08",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/DSCF2925_普通人用好AI的三个思维/AI第4版_粗剪字幕.fcpxml",
+      "ai_sha256": "117a5fe2be1ab9aa6c0c6d8e12a29f0bebe3a2789542c3a772991f8fcf7c626d",
+      "final_path": "样本库/口播/DSCF2925_普通人用好AI的三个思维/用户精调版.fcpxml",
+      "final_sha256": "a143653f73093df02622682cee9aa33e5c21047b656f45a57b0a26b2e38dcfc4",
+      "evidence": "diff_only",
+      "evidence_scopes": [
+        "rough_cut_boundaries",
+        "rough_cut_content",
+        "subtitle_segmentation",
+        "subtitle_alignment"
+      ],
+      "known_defects": ["用户版包含内容重切，不能把全部变化解释为统一加尾"]
+    },
+    {
+      "name": "C2930_做成事先行动再提升准度",
+      "material_type": "single_speaker",
+      "evidence_family_id": "c2930-做成事先行动再提升准度-2026-08",
+      "dataset_role": "training",
+      "ai_path": "样本库/口播/C2930_做成事先行动再提升准度/AI初稿.fcpxml",
+      "ai_sha256": "95b38c3f32702a58c9e98db5b503e461f1d51472ede74ebe967b36af1e74d505",
+      "final_path": "样本库/口播/C2930_做成事先行动再提升准度/用户精调版.fcpxml",
+      "final_sha256": "1c4a782c2f11e7492f9cc744cb13c1b00d900e81c3fb5ab274838ad28a35a431",
+      "evidence": "diff_only",
+      "evidence_scopes": [
+        "rough_cut_content",
+        "rough_cut_order",
+        "rough_cut_boundaries",
+        "single_speaker_direction",
+        "subtitle_style",
+        "packaging_mixed"
+      ],
+      "known_defects": [
+        "用户版同时包含字幕样式与包装，本次用户口头解释只确认 P1 的开头、承接、活人感与信息密度判断",
+        "不能从约 45% 的净删减率推导固定时长、固定保留率或所有单人口播都应大幅删减"
+      ]
+    },
+    {
+      "name": "C2861_采访",
+      "material_type": "single_subject_interview",
+      "evidence_family_id": "c2861-采访",
+      "dataset_role": "training",
+      "ai_path": "样本库/采访/C2861_采访/AI版.fcpxml",
+      "ai_sha256": "ca8f08ec6f7e3664ab6a1df99b551a28d5e00859bbc2a40481043c2a8f872dd4",
+      "final_path": "样本库/采访/C2861_采访/终版_精剪.fcpxml",
+      "final_sha256": "b514460383966e918d46bc2dfba572c413932c05fcf5314e8617eb866bae20bf",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries", "interviewer_removal", "subtitle_diff_mixed"],
+      "known_defects": ["终版混合字幕与包装，不能单独证明每个提问残声都已删除"]
+    },
+    {
+      "name": "C2862_老板用不好AI",
+      "material_type": "single_subject_interview",
+      "evidence_family_id": "c2862-老板用不好ai",
+      "dataset_role": "training",
+      "ai_path": "样本库/采访/C2862_老板用不好AI/AI版.fcpxml",
+      "ai_sha256": "69818cc36a779758dfe5514b5e831a5daea39379ddef967058e534ec08cb30ac",
+      "final_path": "样本库/采访/C2862_老板用不好AI/终版_精剪.fcpxml",
+      "final_sha256": "3857c95e72f3321a5e519ae1ac5144d98c91063661f50f6cd62b9b13388c8905",
+      "evidence": "diff_only",
+      "evidence_scopes": ["rough_cut_content", "rough_cut_boundaries", "interviewer_removal", "self_correction", "subtitle_diff_mixed"],
+      "known_defects": ["终版混合字幕与包装，只学习实际改动"]
+    }
+  ],
+  "development_cases": [
+    {
+      "name": "C2637_AI在企业中的应用落地",
+      "material_type": "single_subject_interview",
+      "evidence_family_id": "c2637-course-testimonial-2026-07",
+      "dataset_role": "development",
+      "holdout_eligible": false,
+      "ai_path": "样本库/采访/C2637_AI在企业中的应用落地/AI初稿.fcpxml",
+      "ai_sha256": "0c7c1103f8f50b9d05ba37ad35dfdef3b7419ab58674936054306f20e890f8b1",
+      "final_path": "样本库/采访/C2637_AI在企业中的应用落地/用户调整版.fcpxml",
+      "final_sha256": "c1d9d5d7b2b0ffbfce235d5823531bf899b4b2a7e7e12eb5de1b41e61b9e0056",
+      "evidence": "direction_correction",
+      "usage": "manual_reference_only"
+    }
+  ],
+  "portfolio_cases": [
+    {
+      "name": "C2637_一条长采访拆成四条",
+      "material_type": "single_subject_interview",
+      "evidence_family_id": "c2637-course-testimonial-2026-07",
+      "dataset_role": "development",
+      "holdout_eligible": false,
+      "relation": "one_to_many",
+      "evidence": "portfolio_decomposition",
+      "usage": "manual_reference_only",
+      "analysis_path": "知识库/成对示例库/C2637_一条长采访拆成四条.md",
+      "analysis_sha256": "67c88dbfebe0333a87026a19ba89519d9820b63fecef023b0199615e81f18be6",
+      "source": {
+        "external_path": "/Volumes/意修1/金/课程/7月课程/视频/课程好评/C2637.MP4",
+        "sha256": "d7f30228c5dc1ea091c20c504d66d5173adf0e77de3c345002be0f5be8fb9edc"
+      },
+      "common_baseline": {
+        "path": "样本库/采访/C2637_一条长采访拆成四条/共同长初稿.fcpxml",
+        "sha256": "49a8c197dd713ca3a0f9f014457f2aceb66f9ebf9f58eef1fb3b29cf4e80f2f7"
+      },
+      "outputs": [
+        {
+          "output_id": "课程真正好在哪里",
+          "path": "样本库/采访/C2637_一条长采访拆成四条/课程真正好在哪里.fcpxml",
+          "sha256": "95e9cc0ed1397e40c61a67ece064fb124e299658a109ca808e28ebc60b448bf2"
+        },
+        {
+          "output_id": "AI在企业中的应用落地",
+          "path": "样本库/采访/C2637_AI在企业中的应用落地/用户调整版.fcpxml",
+          "sha256": "c1d9d5d7b2b0ffbfce235d5823531bf899b4b2a7e7e12eb5de1b41e61b9e0056"
+        },
+        {
+          "output_id": "从怀疑到认可课程和团队",
+          "path": "样本库/采访/C2637_一条长采访拆成四条/从怀疑到认可课程和团队.fcpxml",
+          "sha256": "fde5040ca543344a3e33f235dec44965c18c665e4c2e69e005ceb5648525dc9b"
+        },
+        {
+          "output_id": "什么人适合学AI",
+          "path": "样本库/采访/C2637_一条长采访拆成四条/什么人适合学AI.fcpxml",
+          "sha256": "300a4baa065e3cd697cd1942346efc7ed143a553f1481c1bc52f73a62ea35dda"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "name": "C2864_什么人吃香",
+      "reason": "原素材并非可证明的一位学员唯一主体，不用于 single_subject_interview 同类型样本"
+    },
+    {
+      "name": "C2880_FDE",
+      "reason": "现存 AI 基线曾被后续运行覆盖，无法证明是用户调整前的不可变初稿"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+ "goal": "用普通人视角讲清晨跑坚持不下来是方法问题不是毅力问题，并给出三个可执行动作",
+ "audience": "多次下决心晨跑又放弃、习惯把原因归到毅力上的上班族",
+ "main_claim": "晨跑坚持不下来多半不是毅力不够；把起床时间、起步跑量和正向反馈安排对，普通人也能长期跑下去",
+ "hook_candidates": [
+  {
+   "candidate_id": "H0",
+   "segment_ids": [0],
+   "hook_type": "conflict",
+   "strength_reason": "开局第一句就是「三次晨跑三次放弃」，挫败与自我怀疑同时出现，观众立刻想知道到底败在哪",
+   "open_loop_reason": "把「问题出在哪」打开但不给答案，答案要等方法部分讲完之后才落地"
+  },
+  {
+   "candidate_id": "H1",
+   "segment_ids": [0, 1],
+   "hook_type": "natural_premise",
+   "strength_reason": "挫败之后立刻补上「大部分人都归到毅力」，冲突与前提一次交代，不依赖爆点也听得懂",
+   "open_loop_reason": "归因前提一给出，观众会自然追问「那到底该归到哪」，后文用方法部分兑现"
+  }
+ ],
+ "selected_hook": "H0",
+ "intentional_repeats": [],
+ "sequence": [
+  {
+   "segment_id": 0,
+   "role": "hook",
+   "reason": "真实挫败开场：三次晨跑全放弃，痛点一眼可见，不脱离原位、不歪曲事实"
+  },
+  {
+   "segment_id": 1,
+   "role": "前提",
+   "reason": "点出「大部分人把失败归到毅力」，界定问题框架，给后文反转埋语境"
+  },
+  {
+   "segment_id": 2,
+   "role": "转折",
+   "reason": "点破「问题不在毅力在方法」，是整条论证链的拐点"
+  },
+  {
+   "segment_id": 3,
+   "role": "方法",
+   "reason": "第一条可执行动作：起床时间绑定既有习惯，降低启动成本"
+  },
+  {
+   "segment_id": 4,
+   "role": "方法",
+   "reason": "第二条可执行动作：起步跑量减半，先保连续性再加强度"
+  },
+  {
+   "segment_id": 5,
+   "role": "收束",
+   "reason": "跑完打卡给自己正向反馈，收在行动闭环上，回扣开头「为什么坚持不了」"
+  }
+ ]
+}
