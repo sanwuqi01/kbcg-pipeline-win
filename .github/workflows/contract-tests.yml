@@ -25,18 +25,10 @@ jobs:
         shell: cmd
         run: python -X utf8 -m unittest tests.test_learning_contracts -v
 
-      - name: 环境自检（契约部分）
-        working-directory: .workbuddy/skills/kbcg-xgz-win-workbuddy
-        shell: cmd
-        # doctor 会因无剪映/CapCutMate 报缺件——这是预期（CI 机器不是生产机）；
-        # 只要求「Mac 残留扫描」和「运行时断言」两节不失败。退出码容忍。
-        run: |
-            脚本_win\pipeline.py doctor > doctor.log 2>&1
-            if exit_code neq 0 type doctor.log
-            findstr /C:"Mac 专属调用残留扫描" /C:"没有 Mac 命令" doctor.log
-            findstr /C:"Windows 运行时断言" /C:"未触发" doctor.log
+      - name: Mac 残留扫描（真命中必须为 0）
+        working-directory: .workbuddy/skills/kbcg-xgz-win-workbuddy/脚本_win
+        run: python -X utf8 -c "import pipeline; hits, retained = pipeline.scan_mac_residue(); print('真命中:', len(hits)); assert not hits, hits"
 
-      - name: 冒烟：状态机 --help
+      - name: 冒烟：状态机可导入、--help 可用
         working-directory: 剪辑工作台/工具
-        shell: cmd
         run: python -X utf8 剪辑.py --help

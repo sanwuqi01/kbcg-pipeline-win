@@ -1,0 +1,3 @@
+# 样本 FCPXML 被 成对样本清单.json 以 SHA-256 锚定，必须逐字节稳定：
+# 禁止 git 做任何换行符转换（CI 的 autocrlf 会把 LF 检出成 CRLF 导致哈希失效）
+*.fcpxml -text
