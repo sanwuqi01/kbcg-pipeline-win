@@ -215,6 +215,7 @@ class JianyingRuntimeStateTests(unittest.TestCase):
                 check=False,
                 capture_output=True,
                 text=True,
+                env={**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"},
             )
             self.assertEqual(result.returncode, 0, result.stderr)
             manifest = json.loads((work / "run_manifest_jianying.json").read_text())
@@ -251,6 +252,7 @@ class JianyingRuntimeStateTests(unittest.TestCase):
                 check=False,
                 capture_output=True,
                 text=True,
+                env={**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"},
             )
             self.assertEqual(result.returncode, 0, result.stderr)
             manifest = json.loads((work / "run_manifest_jianying.json").read_text())

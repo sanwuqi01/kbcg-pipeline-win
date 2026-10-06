@@ -8,6 +8,11 @@ on:
 jobs:
   tests:
     runs-on: windows-latest
+    env:
+      # GitHub Windows runner 控制台是 cp1252，脚本里的 ✅⛔ emoji 会崩
+      # （与生产机相同的约束：管线入口都强制 UTF-8，见 SKILL.md「环境」节）
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: "utf-8"
     steps:
       - uses: actions/checkout@v4
 
