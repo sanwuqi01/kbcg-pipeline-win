@@ -8,12 +8,21 @@
 
 前提：Windows 10/11 · 剪映专业版（启动过至少一次）· `ffmpeg` 在 PATH · Python 3.11+ · 一个 AI agent（WorkBuddy / Claude Code / ZCode / Cursor）
 
-**安装位置先定死（两种方式通用）**：选一个本地物理盘的固定目录，如 `D:\kbcg-pipeline-win`——纯英文、无空格；不要放桌面 / OneDrive / 网盘同步目录 / 移动硬盘 / 网络路径；所在盘剩余空间 ≥ 5GB（模型 1.6GB 和工作区产物都长在仓库目录里，装一次长期用，别换地方）。
+**安装位置（两种方式通用）**：本地物理盘上的固定目录——建议纯英文、无空格；不要放桌面 / OneDrive / 网盘同步目录 / 移动硬盘 / 网络路径；所在盘剩余空间 ≥ 5GB（模型 1.6GB 和工作区产物都长在仓库目录里，装一次长期用，别换地方）。装在哪个盘都行，软件盘、工作盘都可以。
 
-### 方式 A · 人工克隆（会一点命令行，自己掌握工作目录）
+### 方式 A · 人工克隆（会一点命令行，自己掌握装在哪）
+
+`git clone` 会在「当前目录」下生成 `kbcg-pipeline-win` 文件夹，所以先切到想装的位置再克隆：
 
 ```bash
-git clone https://github.com/sanwuqi01/kbcg-pipeline-win.git D:\kbcg-pipeline-win
+cd /d E:\AI工具        ← cmd 写法（/d 允许跨盘符），换成你自己的盘和目录
+git clone https://github.com/sanwuqi01/kbcg-pipeline-win.git
+```
+
+不想先切目录的话，把完整目标路径写在克隆命令末尾，一步到位：
+
+```bash
+git clone https://github.com/sanwuqi01/kbcg-pipeline-win.git "E:\AI工具\kbcg-pipeline-win"
 ```
 
 克隆完用 agent 把这个目录作为工作区打开，直接跳到下面的「装好之后」。
@@ -21,8 +30,10 @@ git clone https://github.com/sanwuqi01/kbcg-pipeline-win.git D:\kbcg-pipeline-wi
 ### 方式 B · agent 一句话（推荐，粘给 agent 即可）
 
 ```text
-把 https://github.com/sanwuqi01/kbcg-pipeline-win 克隆到 D:\kbcg-pipeline-win
-（固定安装目录：纯英文无空格，不要放桌面/OneDrive/网盘/移动硬盘，目标盘剩余空间 ≥ 5GB）。
+把 https://github.com/sanwuqi01/kbcg-pipeline-win 克隆到你自己的工作目录下
+（保持默认文件夹名 kbcg-pipeline-win；建议纯英文路径，不要放桌面/OneDrive/
+网盘同步目录/移动硬盘，所在盘剩余空间 ≥ 5GB——模型 1.6GB 和工作区产物都在
+仓库目录里，装好后长期使用，不要再挪动）。
 克隆完成后：把该目录作为你的工作目录打开，先读 AGENTS.md，
 然后执行环境安装（对话指令「安装口播出稿」，等价 部署/bootstrap.py --yes，
 预计 10–30 分钟，主要是下载 1.6GB ASR 模型），
