@@ -32,3 +32,7 @@ jobs:
       - name: 冒烟：状态机可导入、--help 可用
         working-directory: 剪辑工作台/工具
         run: python -X utf8 剪辑.py --help
+
+      - name: 外部输入输出与配置路径
+        shell: cmd
+        run: python -X utf8 -m unittest discover -s 剪辑工作台/工具/tests -p test_*.py -v

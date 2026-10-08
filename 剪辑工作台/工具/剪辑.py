@@ -91,11 +91,15 @@ _bootstrap_utf8()
 
 TOOLS = Path(__file__).resolve().parent
 BASE = TOOLS.parent
-INBOX = BASE / "输入"
-OUTBOX = BASE / "输出"
-WORKROOT = BASE / "工作区"
-LOGROOT = BASE / "运行记录"
-SETTINGS = BASE / "配置" / "设置.json"
+sys.path.insert(0, str(TOOLS))
+from runtime_paths import read_settings, resolve_runtime_paths  # noqa: E402
+
+RUNTIME_PATHS = resolve_runtime_paths(BASE)
+INBOX = RUNTIME_PATHS.inbox
+OUTBOX = RUNTIME_PATHS.outbox
+WORKROOT = RUNTIME_PATHS.workroot
+LOGROOT = RUNTIME_PATHS.logroot
+SETTINGS = RUNTIME_PATHS.settings
 TEMPLATES = BASE / "说明书" / "待填模板"
 FACTORY = BASE / "配图工厂" / "工具" / "图标工厂.py"
 
@@ -169,18 +173,17 @@ def call_tee(cmd: list, log_path: Path) -> tuple[int, str]:
     tail: collections.deque = collections.deque(maxlen=40)
     with log_path.open("a", encoding="utf-8") as handle:
         handle.write(f"\n[{dt.datetime.now():%Y-%m-%d %H:%M:%S}] $ {shown}\n")
-        proc = subprocess.Popen(
+        with subprocess.Popen(
             cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
             text=True, encoding="utf-8", errors="replace",
             env=child_env(), bufsize=1,
-        )
-        assert proc.stdout is not None
-        for raw in proc.stdout:
-            sys.stdout.write(raw)
-            sys.stdout.flush()
-            handle.write(raw)
-            tail.append(raw.rstrip("\n"))
-        proc.wait()
+        ) as proc:
+            assert proc.stdout is not None
+            for raw in proc.stdout:
+                sys.stdout.write(raw)
+                sys.stdout.flush()
+                handle.write(raw)
+                tail.append(raw.rstrip("\n"))
     return proc.returncode, "\n".join(tail)
 
 
@@ -205,11 +208,7 @@ SCRIPTS_WIN: Path = Path()
 
 
 def settings() -> dict:
-    try:
-        data = read_json(SETTINGS)
-        return data if isinstance(data, dict) else {}
-    except Exception:  # noqa: BLE001
-        return {}
+    return read_settings(RUNTIME_PATHS)
 
 
 def resolve_skill() -> Path:
@@ -230,8 +229,11 @@ def resolve_skill() -> Path:
     """
     cands: list[Path] = []
     env = os.environ.get("XGZ_SKILL_ROOT")
-    if env:
-        cands.append(Path(env))
+    if "XGZ_SKILL_ROOT" in os.environ:
+        explicit = Path(env or "")
+        if not env or not explicit.is_absolute() or not (explicit / "脚本_win" / "pipeline.py").is_file():
+            raise SystemExit(f"⛔ XGZ_SKILL_ROOT 无效: {env!r}")
+        return explicit.resolve()
     configured = str(settings().get("skill_root") or "").strip()
     if configured:
         cands.append(Path(configured))
@@ -1411,7 +1413,8 @@ def cmd_inputs(_args) -> int:
 
 def cmd_doctor(_args) -> int:
     head("工作台自检")
-    echo(f"工作台根目录 : {BASE}")
+    echo(f"运行目录     : {RUNTIME_PATHS.root}")
+    echo(f"源码工作台   : {BASE}")
     echo(f"输入          : {INBOX}  {'✓' if INBOX.is_dir() else '✗ 缺'}")
     echo(f"输出          : {OUTBOX}  {'✓' if OUTBOX.is_dir() else '✗ 缺'}")
     echo(f"工作区        : {WORKROOT}  {'✓' if WORKROOT.is_dir() else '✗ 缺'}")

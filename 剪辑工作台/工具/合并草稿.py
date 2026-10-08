@@ -39,8 +39,12 @@ from pathlib import Path
 
 TOOLS = Path(__file__).resolve().parent
 BASE = TOOLS.parent
-WORKROOT = BASE / "工作区"
-OUTBOX = BASE / "输出"
+sys.path.insert(0, str(TOOLS))
+from runtime_paths import resolve_runtime_paths  # noqa: E402
+
+RUNTIME_PATHS = resolve_runtime_paths(BASE)
+WORKROOT = RUNTIME_PATHS.workroot
+OUTBOX = RUNTIME_PATHS.outbox
 
 PLAN_SCHEMA = "kbcg-xgz/merge_draft_plan@1"
 MERGE_MARKER = "合并交付.json"
@@ -686,7 +690,7 @@ def main(argv: list[str] | None = None) -> int:
     ctx = load_context()
     剪辑 = ctx["剪辑"]
     only = [x.strip() for x in args.only.split(",") if x.strip()] if args.only else None
-    episodes = collect_episodes(BASE, args.date, only)
+    episodes = collect_episodes(RUNTIME_PATHS.root, args.date, only)
     if len(episodes) < 2:
         names = "、".join(row["name"] for row in episodes) or "（没有已登记的期）"
         raise SystemExit(
