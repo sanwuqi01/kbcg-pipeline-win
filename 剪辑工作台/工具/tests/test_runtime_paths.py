@@ -221,7 +221,7 @@ class RuntimePathsTest(unittest.TestCase):
             cli_env["XGZ_SKILL_ROOT"] = str(WORKBENCH.parent / ".workbuddy" / "skills" /
                                              "kbcg-xgz-win-workbuddy")
             result = subprocess.run([sys.executable, str(TOOLS / "剪辑.py"), "inputs"],
-                                    env=cli_env, capture_output=True, text=True)
+                                    env=cli_env, capture_output=True, text=True, encoding="utf-8")
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
             self.assertIn(str(video), result.stdout)
         self.assertTrue((self.root / "运行记录" / "中文 空格.log").is_file())
