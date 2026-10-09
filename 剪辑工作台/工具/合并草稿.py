@@ -40,7 +40,7 @@ from pathlib import Path
 TOOLS = Path(__file__).resolve().parent
 BASE = TOOLS.parent
 sys.path.insert(0, str(TOOLS))
-from runtime_paths import resolve_runtime_paths  # noqa: E402
+from runtime_paths import RuntimePaths, resolve_runtime_paths  # noqa: E402
 
 RUNTIME_PATHS = resolve_runtime_paths(BASE)
 WORKROOT = RUNTIME_PATHS.workroot
@@ -89,17 +89,20 @@ def next_free_name(root: Path, stem: str) -> str:
     raise SystemExit(f"⛔ {root} 下「{stem}」的版本号已经排到四位数，先人工清理")
 
 
-def collect_episodes(base: Path, date: str, only: list[str] | None) -> list[dict]:
+def collect_episodes(paths: RuntimePaths | Path, date: str,
+                     only: list[str] | None) -> list[dict]:
     """找出源素材位于 输入\\<日期>\\ 下的已登记期。
 
     返回 [{name, work, source}]，默认按素材文件名排序（=接龙顺序）。
     only 非空时按给定顺序挑选（名字必须全部命中，缺一个就响亮失败）。
     """
-    inbox_date = base / "输入" / date
+    # Path 参数只保留给旧调用者；入口始终传入已校验的 RuntimePaths。
+    inbox = paths.inbox if isinstance(paths, RuntimePaths) else paths / "输入"
+    workroot = paths.workroot if isinstance(paths, RuntimePaths) else paths / "工作区"
+    inbox_date = inbox / date
     if not inbox_date.is_dir():
         raise SystemExit(f"⛔ 没有这个日期文件夹: {inbox_date}")
     found: list[dict] = []
-    workroot = base / "工作区"
     if workroot.is_dir():
         for entry in sorted(workroot.iterdir()):
             cfg_path = entry / "config.json"
@@ -690,7 +693,7 @@ def main(argv: list[str] | None = None) -> int:
     ctx = load_context()
     剪辑 = ctx["剪辑"]
     only = [x.strip() for x in args.only.split(",") if x.strip()] if args.only else None
-    episodes = collect_episodes(RUNTIME_PATHS.root, args.date, only)
+    episodes = collect_episodes(RUNTIME_PATHS, args.date, only)
     if len(episodes) < 2:
         names = "、".join(row["name"] for row in episodes) or "（没有已登记的期）"
         raise SystemExit(
