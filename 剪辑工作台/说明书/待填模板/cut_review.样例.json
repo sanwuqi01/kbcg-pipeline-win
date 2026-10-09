@@ -56,7 +56,7 @@
     }
   ],
   "review": {
-    "status": "agent_reviewed",
+    "status": "reviewed",
     "reviewer_type": "agent",
     "reviewed_by": "<你的标识>",
     "reviewed_at": "<ISO 时间>"

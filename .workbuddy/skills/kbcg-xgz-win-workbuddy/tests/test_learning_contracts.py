@@ -739,5 +739,75 @@ class DeliveryAndAlignmentTests(unittest.TestCase):
         )
 
 
+class ReviewStatusVocabularyTests(unittest.TestCase):
+    """闸口 `review.status` 的词表必须与契约一致。
+
+    2026-10-09 Windows 全链验收实测：`decision_contract._validate_basic_review`
+    只接受 `reviewed` / `approved`，而 `agent_reviewed / human_reviewed /
+    human_approved` 是它**算出来**写进 `decision_lock.json` 的 `review.level`。
+    说明书和 `cut_review.样例.json` 当时把 level 词表写进了 `status` 字段，
+    照抄模板会让 F1 冻结失败（报「尚未裁决」，与真实原因无关）。
+    本测试锁住这个边界：文档/模板不得再混用两套词表。
+    """
+
+    REPO = ROOT.parents[2]
+    TEMPLATES = REPO / "剪辑工作台/说明书/待填模板"
+    MANUAL = REPO / "剪辑工作台/说明书/工序与闸口.md"
+    LEVEL_WORDS = {"agent_reviewed", "human_reviewed", "human_approved"}
+    PROBE_TIME = "2026-01-01T00:00:00+00:00"
+
+    def _accepted(self, reviewer_type):
+        """直接问契约哪些 status 能通过，避免测试与契约各写一份词表。"""
+        accepted = set()
+        for candidate in sorted(self.LEVEL_WORDS | {"reviewed", "approved", "pending"}):
+            review = {
+                "reviewer_type": reviewer_type,
+                "status": candidate,
+                "reviewed_by": "vocabulary-probe",
+                "reviewed_at": self.PROBE_TIME,
+            }
+            try:
+                decision_contract._validate_basic_review(review, "probe")
+            except Exception:
+                continue
+            accepted.add(candidate)
+        return accepted
+
+    def test_contract_accepts_reviewed_and_rejects_level_words(self):
+        self.assertEqual(self._accepted("agent"), {"reviewed"})
+        self.assertEqual(self._accepted("human"), {"reviewed", "approved"})
+        for word in self.LEVEL_WORDS:
+            self.assertNotIn(word, self._accepted("agent"))
+
+    def test_gate_templates_use_contract_status_vocabulary(self):
+        accepted = self._accepted("agent") | self._accepted("human")
+        seen = 0
+        for path in sorted(self.TEMPLATES.glob("*.json")):
+            data = json.loads(path.read_text(encoding="utf-8"))
+            review = data.get("review")
+            if not isinstance(review, dict):
+                continue
+            seen += 1
+            status = review.get("status")
+            self.assertIn(status, accepted, f"{path.name} review.status 不在契约词表内")
+            self.assertNotIn(
+                status, self.LEVEL_WORDS,
+                f"{path.name} 把 level 词表写进了 status 字段",
+            )
+        self.assertGreater(seen, 0, "没有扫描到任何带 review 的模板")
+
+    def test_manual_does_not_teach_level_words_as_status(self):
+        text = self.MANUAL.read_text(encoding="utf-8")
+        for word in self.LEVEL_WORDS:
+            self.assertNotIn(
+                f'"status": "{word}"', text,
+                f"说明书仍在教把 {word} 写进 review.status",
+            )
+        self.assertIn('"status": "reviewed"', text)
+
+
 if __name__ == "__main__":
+    unittest.main()
+
+
     unittest.main()
